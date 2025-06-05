@@ -1,0 +1,175 @@
+{
+  "gettingStarted": {
+    "title": "Getting Started with Apper Academy",
+    "description": "Learn how to use Apper Academy to master app development through hands-on learning",
+    "sections": [
+      {
+        "id": "what-is-apper",
+        "title": "What is Apper Academy?",
+        "content": "Apper Academy is your personal learning companion for mastering app development. Think of it as your friendly tutor who guides you step-by-step through creating amazing apps. Whether you're a complete beginner or looking to improve your skills, Apper Academy makes learning fun and easy.",
+        "highlights": [
+          "Interactive lessons that teach by doing",
+          "Real coding exercises with instant feedback",
+          "Progress tracking to see how far you've come",
+          "Achievement system to celebrate your wins"
+        ]
+      },
+      {
+        "id": "getting-started",
+        "title": "How to Get Started",
+        "content": "Starting your learning journey is super easy! Just follow these simple steps:",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Choose Your First Lesson",
+            "description": "Browse through the available lessons on the main page. Start with 'Introduction to Apper' if you're new, or pick any topic that interests you."
+          },
+          {
+            "step": 2,
+            "title": "Read and Learn",
+            "description": "Each lesson has clear explanations and examples. Take your time to read through the content - there's no rush!"
+          },
+          {
+            "step": 3,
+            "title": "Practice with Exercises",
+            "description": "Try the hands-on exercises to practice what you've learned. Don't worry if you make mistakes - that's how we learn!"
+          },
+          {
+            "step": 4,
+            "title": "Track Your Progress",
+            "description": "Watch your progress bar fill up as you complete lessons. It feels great to see how much you've accomplished!"
+          }
+        ]
+      },
+      {
+        "id": "features-explained",
+        "title": "Understanding Each Feature",
+        "content": "Let's explore what each part of Apper Academy does for you:",
+        "features": [
+          {
+            "name": "Lessons",
+            "icon": "📚",
+            "description": "Lessons are like chapters in a book. Each one teaches you something new about creating apps. They include explanations, examples, and tips to help you understand.",
+            "howToUse": "Click on any lesson card to open it. Read through the content at your own pace. Use the navigation arrows to move between sections."
+          },
+          {
+            "name": "Exercises",
+            "icon": "💻",
+            "description": "Exercises are where you practice what you've learned. They're like puzzles that help you apply your knowledge in a fun way.",
+            "howToUse": "Follow the instructions in each exercise. Type your answer in the provided space. Don't worry about getting it perfect - you can try as many times as you want!"
+          },
+          {
+            "name": "Progress Tracking",
+            "icon": "📈",
+            "description": "Your progress tracker shows how much you've completed. It's like a report card that shows your learning journey.",
+            "howToUse": "Check your progress anytime on the dashboard. Green bars mean completed, yellow means in progress, and gray means not started yet."
+          },
+          {
+            "name": "Achievements",
+            "icon": "🏆",
+            "description": "Achievements are special rewards you earn for reaching milestones. They celebrate your hard work and motivate you to keep going!",
+            "howToUse": "Achievements unlock automatically when you hit certain goals. Check your achievement page to see what you've earned and what's coming next."
+          },
+          {
+            "name": "Code Playground",
+            "icon": "🎮",
+            "description": "The playground is where you can experiment and try things out safely. It's like a sandbox where you can build and test without breaking anything.",
+            "howToUse": "Use the playground to test ideas, practice coding, or just have fun experimenting with what you've learned."
+          }
+        ]
+      },
+      {
+        "id": "navigation-guide",
+        "title": "Getting Around the App",
+        "content": "Here's how to navigate through Apper Academy like a pro:",
+        "navigationTips": [
+          {
+            "area": "Main Dashboard",
+            "description": "This is your home base. You'll see all available lessons, your progress, and quick access to everything you need."
+          },
+          {
+            "area": "Lesson View",
+            "description": "When you open a lesson, you'll see the content on the left and interactive elements on the right. Use the arrow buttons to navigate between sections."
+          },
+          {
+            "area": "Progress Panel",
+            "description": "Shows how you're doing overall and in each lesson. The green bars mean you're doing great!"
+          },
+          {
+            "area": "Exercise Area",
+            "description": "This is where you'll complete hands-on activities. Follow the instructions and don't be afraid to experiment!"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "id": 1,
+      "question": "I'm completely new to coding. Can I still use Apper Academy?",
+      "answer": "Absolutely! Apper Academy is designed for beginners. We start with the basics and explain everything in simple terms. You don't need any prior experience - just curiosity and willingness to learn!"
+    },
+    {
+      "id": 2,
+      "question": "How long does it take to complete a lesson?",
+      "answer": "Most lessons take 15-30 minutes to complete. But don't worry about time - go at your own pace. Some people prefer to take their time, while others move quickly. There's no right or wrong speed!"
+    },
+    {
+      "id": 3,
+      "question": "What if I get stuck on an exercise?",
+      "answer": "Getting stuck is totally normal and part of learning! Try reading the lesson content again, look at the examples, or take a break and come back later. Remember, you can attempt exercises as many times as you want."
+    },
+    {
+      "id": 4,
+      "question": "Can I skip lessons or do them out of order?",
+      "answer": "You can explore any lesson that interests you! However, we recommend following the suggested order, especially if you're new to app development, as lessons build on previous concepts."
+    },
+    {
+      "id": 5,
+      "question": "How do I track my progress?",
+      "answer": "Your progress is automatically saved as you complete lessons and exercises. Check the progress bars on your dashboard to see how you're doing. Completed items show in green!"
+    },
+    {
+      "id": 6,
+      "question": "What are achievements and how do I earn them?",
+      "answer": "Achievements are special badges you earn for reaching milestones, like completing your first lesson or finishing a series of exercises. They unlock automatically - just keep learning and you'll earn them!"
+    },
+    {
+      "id": 7,
+      "question": "Can I use Apper Academy on my phone or tablet?",
+      "answer": "Yes! Apper Academy works on phones, tablets, and computers. The interface adapts to your screen size, so you can learn anywhere, anytime."
+    },
+    {
+      "id": 8,
+      "question": "Is my progress saved automatically?",
+      "answer": "Yes! Everything you do is saved automatically. You can close the app and come back later, and your progress will be right where you left it."
+    }
+  ],
+  "tips": [
+    {
+      "id": 1,
+      "title": "Take Your Time",
+      "description": "Learning is not a race. Take time to understand each concept before moving on. It's better to understand one thing well than to rush through many things."
+    },
+    {
+      "id": 2,
+      "title": "Practice Regularly",
+      "description": "Even 15 minutes a day can make a big difference. Consistent practice helps you remember what you've learned and builds confidence."
+    },
+    {
+      "id": 3,
+      "title": "Don't Fear Mistakes",
+      "description": "Mistakes are learning opportunities! Every expert was once a beginner who made lots of mistakes. Embrace them and learn from them."
+    },
+    {
+      "id": 4,
+      "title": "Experiment in the Playground",
+      "description": "Use the code playground to try new things. It's a safe space to experiment and see what happens when you change different parts of the code."
+    },
+    {
+      "id": 5,
+      "title": "Celebrate Small Wins",
+      "description": "Completed an exercise? Understood a new concept? Celebrate these moments! Learning is made up of many small victories."
+    }
+  ]
+}
