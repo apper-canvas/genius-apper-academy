@@ -1,186 +1,434 @@
 {
   "gettingStarted": {
     "title": "Getting Started with Apper",
-    "description": "Learn how to create amazing applications using Apper's simple conversation-based approach",
+    "description": "A beginner-friendly, comprehensive guided tour for new users learning how to use Apper, the AI app builder",
     "sections": [
       {
         "id": "what-is-apper",
         "title": "What is Apper?",
-        "content": "Apper is a revolutionary platform that lets you create professional web applications by simply describing what you want in plain English. Think of it as having a conversation with a skilled developer who understands exactly what you need and builds it for you instantly. No coding knowledge required!",
+        "content": "Think of Apper as your personal AI assistant that builds full applications for you! You simply chat with it like you would with a friend, describing what you want to create, and Apper handles everything else. No need to write code, pick templates, or connect different tools - Apper does it all in one place. It's like having a conversation with a developer who instantly understands your vision and brings it to life!",
         "highlights": [
-          "Build apps by describing them in natural language",
-          "No coding or technical skills needed",
-          "Professional results in minutes, not months",
-          "Real applications that work on all devices"
+          "Chat naturally with AI to build complete apps",
+          "No coding, templates, or technical setup required", 
+          "Everything handled in one conversation-based interface",
+          "Get professional results in minutes, not months"
         ]
       },
       {
-        "id": "how-it-works",
-        "title": "How Apper Works",
-        "content": "Apper uses advanced AI to understand your app ideas and turn them into real, working applications. Here's the simple process:",
-        "steps": [
+        "id": "why-apper-stands-out",
+        "title": "Why Apper Stands Out",
+        "content": "What makes Apper special is its all-in-one nature. While other tools make you juggle multiple platforms for design, hosting, payments, and databases, Apper manages everything through natural conversation. Just tell it what you want, and it handles the layout, sets up payments, creates databases, and makes everything work together seamlessly. It's like having an entire development team in your pocket!",
+        "highlights": [
+          "All-in-one platform - no juggling multiple tools",
+          "Conversation-based workflow feels natural and intuitive",
+          "Automatic handling of complex technical requirements",
+          "Professional results without technical expertise"
+        ]
+      },
+      {
+        "id": "what-you-can-build",
+        "title": "What You Can Build",
+        "content": "Apper can create almost any type of web application you can imagine! Here are some popular examples:",
+        "features": [
           {
-            "step": 1,
-            "title": "Describe Your App",
-            "description": "Simply tell Apper what kind of app you want to create. For example: 'I want a restaurant website with a menu, contact form, and online ordering.'"
+            "icon": "💼",
+            "name": "Business Tools",
+            "description": "CRM systems, project management apps, inventory trackers, employee dashboards",
+            "howToUse": "Try: 'Create a customer management system for my small business with contact tracking and follow-up reminders'"
           },
           {
-            "step": 2,
-            "title": "Apper Builds It",
-            "description": "Our AI instantly creates your application based on your description, including all the features you requested."
+            "icon": "👥",
+            "name": "Client Portals",
+            "description": "Customer dashboards, support systems, booking platforms, service portals",
+            "howToUse": "Try: 'Build a client portal where customers can view their project status and submit support tickets'"
           },
           {
-            "step": 3,
-            "title": "Customize and Refine",
-            "description": "Make changes by asking for them naturally: 'Change the color to blue' or 'Add a photo gallery section.'"
+            "icon": "💰",
+            "name": "SaaS Applications",
+            "description": "Subscription services, productivity tools, analytics platforms, automation tools",
+            "howToUse": "Try: 'Create a social media scheduling tool with analytics and team collaboration features'"
           },
           {
-            "step": 4,
-            "title": "Publish and Share",
-            "description": "When you're happy with your app, publish it with one click and share it with the world!"
+            "icon": "🛍️",
+            "name": "Online Stores",
+            "description": "E-commerce sites, marketplaces, digital product stores, subscription boxes",
+            "howToUse": "Try: 'Build an online store for handmade jewelry with payment processing and inventory management'"
+          },
+          {
+            "icon": "🎮",
+            "name": "Interactive Apps",
+            "description": "Quiz platforms, learning tools, games, surveys, interactive experiences",
+            "howToUse": "Try: 'Create a trivia game app with leaderboards and different difficulty levels'"
+          },
+          {
+            "icon": "🌐",
+            "name": "Websites & Portfolios",
+            "description": "Professional websites, portfolios, blogs, landing pages, company sites",
+            "howToUse": "Try: 'Build a portfolio website for a photographer with gallery, contact form, and booking system'"
           }
         ]
       },
       {
-        "id": "creating-first-app",
-        "title": "Creating Your First App with a Prompt",
-        "content": "Getting started is incredibly simple. Here's how to create your first application:",
+        "id": "create-first-app",
+        "title": "Create Your First App",
+        "content": "Ready to create your first app? It's as simple as having a conversation! Here's how to get started:",
         "steps": [
           {
             "step": 1,
-            "title": "Start a New Project",
-            "description": "Click 'Create New App' and you'll see a text box where you can describe your idea."
+            "title": "Start with a Simple Prompt",
+            "description": "Just type what you want to create. Examples: 'Make a booking app for my salon' or 'Create a quiz game about animals'. Don't worry about being perfect - you can always refine it!"
           },
           {
             "step": 2,
-            "title": "Write Your Prompt",
-            "description": "Describe your app clearly. Good examples: 'Create a portfolio website for a photographer' or 'Build a task management app for small teams.'"
+            "title": "Use ChatGPT to Improve Your Prompt (Optional)",
+            "description": "Want better results? Ask ChatGPT: 'Help me write a detailed prompt for Apper to create [your app idea]. Include specific features, design preferences, and functionality.' Then use that improved prompt in Apper!"
           },
           {
             "step": 3,
-            "title": "Be Specific",
-            "description": "Include details about features you want: contact forms, image galleries, user accounts, payment processing, etc."
+            "title": "Submit and Watch the Magic",
+            "description": "Hit enter and watch as Apper builds your app in real-time! You'll see pages being created, features being added, and your vision coming to life right before your eyes."
           },
           {
             "step": 4,
-            "title": "Submit and Watch",
-            "description": "Hit enter and watch as Apper builds your application in real-time. This usually takes just a few minutes!"
+            "title": "Chat to Refine",
+            "description": "Not quite right? Just tell Apper what to change: 'Make the header blue', 'Add a contact form', or 'Change the layout to be more modern'. It responds instantly!"
           }
         ]
       },
       {
-        "id": "customization",
-        "title": "Customizing Your App",
-        "content": "Once your app is created, you can easily customize every aspect of it using simple conversational commands:",
+        "id": "apper-interface",
+        "title": "The Apper Builder Interface",
+        "content": "Once your app is created, you'll see the Apper Builder with four main sections. Don't worry - they're much simpler than they sound!",
         "features": [
           {
             "icon": "🎨",
-            "name": "Design Changes",
-            "description": "Modify colors, fonts, layouts, and styling with simple requests.",
-            "howToUse": "Say things like 'Make the header blue' or 'Use a modern font throughout the site' and Apper will apply the changes instantly."
-          },
-          {
-            "icon": "📄",
-            "name": "Adding Pages",
-            "description": "Add new pages and sections to expand your application's functionality.",
-            "howToUse": "Request new pages by saying 'Add an About Us page' or 'Create a blog section' and Apper will build them with appropriate content and styling."
+            "name": "Customize App",
+            "description": "This is where you chat with Apper to make changes to your app's design, add features, or modify content.",
+            "howToUse": "Simply type what you want to change, like 'Add a photo gallery' or 'Change the color scheme to green and white'"
           },
           {
             "icon": "⚙️",
-            "name": "Feature Enhancement",
-            "description": "Add new features or modify existing ones without any technical complexity.",
-            "howToUse": "Ask for features like 'Add a search function' or 'Include social media sharing buttons' and they'll be integrated seamlessly."
+            "name": "Manage App",
+            "description": "Handle your app's settings, user permissions, domain name, and publishing options.",
+            "howToUse": "Use this section to rename your app, set up user accounts, connect a custom domain, or publish your app live"
+          },
+          {
+            "icon": "💻",
+            "name": "Code (Optional)",
+            "description": "Advanced users can see and modify the actual code, but you never need to touch this section!",
+            "howToUse": "Ignore this completely! Apper handles all the technical stuff. This is only for developers who want to peek under the hood"
+          },
+          {
+            "icon": "🗄️",
+            "name": "Database",
+            "description": "See and manage the data your app collects (like user accounts, form submissions, or product information).",
+            "howToUse": "View data your app has collected, export information, or ask Apper to modify how data is stored and organized"
+          }
+        ]
+      },
+      {
+        "id": "behind-the-scenes",
+        "title": "What Happens Behind the Scenes",
+        "content": "Curious about what Apper does when you submit a prompt? Here's the magic process that happens in seconds:",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Analyzes Your Request",
+            "description": "Apper's AI reads your prompt and understands what type of app you want, what features you need, and how it should look and function."
+          },
+          {
+            "step": 2,
+            "title": "Builds Pages and Features", 
+            "description": "It creates all the pages your app needs, adds the requested features, and sets up the navigation and user flow."
+          },
+          {
+            "step": 3,
+            "title": "Sets Up Data Management",
+            "description": "Apper automatically creates databases to store your app's information and sets up forms to collect user data."
+          },
+          {
+            "step": 4,
+            "title": "Shows You the First Version",
+            "description": "Your app appears on screen, fully functional and ready to use! Plus, you'll see a chat window on the side for making changes."
+          }
+        ]
+      },
+      {
+        "id": "editing-expanding",
+        "title": "Editing and Expanding Your App",
+        "content": "The real magic happens when you start chatting with Apper's AI assistant to improve your app. It's like having a conversation with a helpful developer!",
+        "features": [
+          {
+            "icon": "💬",
+            "name": "Natural Conversation",
+            "description": "Talk to Apper like you would a friend. Use everyday language to describe what you want.",
+            "howToUse": "Examples: 'Add a login page', 'Make the button bigger', 'I want users to upload photos', 'Change the font to something more modern'"
+          },
+          {
+            "icon": "🔄",
+            "name": "Instant Changes",
+            "description": "Watch your app update in real-time as you make requests. Changes appear immediately!",
+            "howToUse": "Make a request and see it happen instantly. No waiting, no complicated processes - just immediate results"
           },
           {
             "icon": "📱",
-            "name": "Mobile Optimization",
-            "description": "Ensure your app looks perfect on all devices with responsive design adjustments.",
-            "howToUse": "Request mobile improvements by saying 'Make the navigation mobile-friendly' or 'Optimize for tablet viewing' and Apper handles the technical details."
+            "name": "Add Any Feature",
+            "description": "Whether it's payment processing, user accounts, or complex functionality, just ask for it!",
+            "howToUse": "Try: 'Add Stripe payments', 'Users should be able to leave reviews', 'Include a search function', 'Add email notifications'"
+          },
+          {
+            "icon": "🎯",
+            "name": "Refine Until Perfect",
+            "description": "Keep chatting until your app is exactly what you envisioned. There's no limit to changes!",
+            "howToUse": "Don't settle for 'good enough' - keep refining: 'Move that section up', 'Make it more colorful', 'Add animation to the buttons'"
           }
         ]
       },
       {
-        "id": "login-signup",
-        "title": "Setting Up User Authentication",
-        "content": "Adding user accounts and authentication to your app is simple with Apper:",
-        "steps": [
-          {
-            "step": 1,
-            "title": "Request User Accounts",
-            "description": "Tell Apper: 'Add user registration and login functionality' and it will create a complete authentication system."
-          },
-          {
-            "step": 2,
-            "title": "Customize User Experience",
-            "description": "Specify what you want: 'Users should be able to create profiles with photos' or 'Add password reset functionality.'"
-          },
-          {
-            "step": 3,
-            "title": "Set Permissions",
-            "description": "Define who can access what: 'Only logged-in users can post comments' or 'Admins can manage all content.'"
-          },
-          {
-            "step": 4,
-            "title": "Test and Launch",
-            "description": "Apper creates test accounts so you can verify everything works before going live."
-          }
-        ]
-      },
-      {
-        "id": "payments",
-        "title": "Adding Payment Processing",
-        "content": "Monetize your app by adding secure payment processing with just a simple request:",
+        "id": "troubleshooting",
+        "title": "Troubleshooting Errors",
+        "content": "Don't worry if something goes wrong - Apper has you covered! You never need to fix technical issues yourself.",
         "features": [
           {
-            "icon": "💳",
-            "name": "Payment Integration",
-            "description": "Accept credit cards, PayPal, and other payment methods securely.",
-            "howToUse": "Simply ask: 'Add payment processing for selling products' and Apper integrates industry-standard payment systems with full security."
+            "icon": "🛠️",
+            "name": "Fix It Now Button",
+            "description": "If any error occurs, you'll see a 'Fix It Now' button that automatically resolves the issue.",
+            "howToUse": "Simply click the button and Apper will diagnose and fix the problem automatically. No technical knowledge required!"
+          },
+          {
+            "icon": "🔍",
+            "name": "Automatic Problem Detection",
+            "description": "Apper continuously monitors your app and catches issues before they become problems.",
+            "howToUse": "Apper works behind the scenes to prevent errors. If something does go wrong, you'll be notified with a simple solution"
+          },
+          {
+            "icon": "💡",
+            "name": "Smart Suggestions",
+            "description": "If Apper can't understand your request, it will suggest clearer ways to ask for what you want.",
+            "howToUse": "Pay attention to Apper's suggestions - they help you communicate more effectively and get better results"
+          },
+          {
+            "icon": "🆘",
+            "name": "Human Support",
+            "description": "If automatic fixes don't work, human experts are available to help resolve any issues.",
+            "howToUse": "Use the support chat if you encounter persistent problems. Our team will help get your app working perfectly"
+          }
+        ]
+      },
+      {
+        "id": "app-versions",
+        "title": "App Versions",
+        "content": "Every change you make creates a new version of your app. Think of it like save points in a video game - you can always go back!",
+        "features": [
+          {
+            "icon": "📊",
+            "name": "Automatic Version Saving",
+            "description": "Apper automatically saves every change as a new version, so you never lose your work.",
+            "howToUse": "Make changes freely! Every modification is automatically saved and you can see a list of all versions in your app history"
+          },
+          {
+            "icon": "⏪",
+            "name": "Easy Version Switching",
+            "description": "Switch between any version instantly to compare changes or revert to an earlier state.",
+            "howToUse": "Click on any version in your history to preview it. If you like an older version better, you can restore it with one click"
+          },
+          {
+            "icon": "👀",
+            "name": "Preview Before Committing",
+            "description": "Preview any version before making it your main app version.",
+            "howToUse": "Test different versions to see how they work and look before deciding which one to keep as your live app"
+          },
+          {
+            "icon": "🔄",
+            "name": "Version Restoration",
+            "description": "Restore any previous version if you change your mind about recent updates.",
+            "howToUse": "Made changes you don't like? No problem! Just select an earlier version and restore it - all your data will be preserved"
+          }
+        ]
+      },
+      {
+        "id": "mobile-desktop-preview",
+        "title": "Mobile vs Desktop Preview",
+        "content": "Your app needs to look great on all devices! Apper makes it easy to see how your app appears on different screen sizes.",
+        "features": [
+          {
+            "icon": "📱",
+            "name": "Mobile Preview",
+            "description": "See exactly how your app looks and works on smartphones and tablets.",
+            "howToUse": "Click the mobile icon to switch to mobile view. Test all features to ensure they work well on smaller screens"
+          },
+          {
+            "icon": "🖥️",
+            "name": "Desktop Preview",
+            "description": "View your app as it appears on laptop and desktop computers.",
+            "howToUse": "Click the desktop icon to see the full desktop experience. This is usually the default view when building"
+          },
+          {
+            "icon": "🔄",
+            "name": "Easy Toggle",
+            "description": "Switch between mobile and desktop views instantly to compare the experience.",
+            "howToUse": "Use the toggle buttons to quickly switch between views while making changes to ensure both versions look great"
+          },
+          {
+            "icon": "📐",
+            "name": "Responsive Design",
+            "description": "Apper automatically adjusts your app to look good on all screen sizes.",
+            "howToUse": "If something doesn't look right on mobile, just tell Apper: 'Make this mobile-friendly' or 'Optimize the layout for phones'"
+          }
+        ]
+      },
+      {
+        "id": "manage-app-settings",
+        "title": "Manage App Settings",
+        "content": "The Manage App section is where you handle all the business side of your app - naming, user access, and login options.",
+        "features": [
+          {
+            "icon": "✏️",
+            "name": "App Naming and Branding",
+            "description": "Change your app's name, description, and basic branding elements.",
+            "howToUse": "Simply update the app name field and description. You can also ask Apper to update branding throughout your app"
+          },
+          {
+            "icon": "👥",
+            "name": "User Permissions",
+            "description": "Control who can access your app and what they can do inside it.",
+            "howToUse": "Set whether your app is public, requires login, or is invite-only. Define different user roles like admin, member, or viewer"
+          },
+          {
+            "icon": "🔐",
+            "name": "Login Methods",
+            "description": "Choose how users sign up and log in to your app.",
+            "howToUse": "Enable login with Google, Facebook, email, or phone number. You can allow multiple options or restrict to specific methods"
+          },
+          {
+            "icon": "🌐",
+            "name": "Domain Management",
+            "description": "Set up your app's web address (URL) for easy sharing.",
+            "howToUse": "Use the free Apper subdomain or connect your own custom domain name for a professional appearance"
+          }
+        ]
+      },
+      {
+        "id": "onboarding-emails",
+        "title": "Onboarding and Emails",
+        "content": "Apper handles all the system emails your app needs to send, like confirmations and password resets. You can customize them too!",
+        "features": [
+          {
+            "icon": "📧",
+            "name": "Email Confirmation",
+            "description": "Automatic emails sent when users sign up to verify their email address.",
+            "howToUse": "Apper sends these automatically. You can customize the message by asking: 'Change the welcome email to include our company logo'"
+          },
+          {
+            "icon": "🔑",
+            "name": "Password Reset",
+            "description": "Secure password reset emails for users who forget their login information.",
+            "howToUse": "These work automatically. Users click 'Forgot Password' and get a secure reset link via email"
+          },
+          {
+            "icon": "🔢",
+            "name": "OTP (One-Time Passwords)",
+            "description": "Security codes sent via email or SMS for extra account protection.",
+            "howToUse": "Enable two-factor authentication by asking Apper: 'Add OTP verification for user logins for extra security'"
+          },
+          {
+            "icon": "🎨",
+            "name": "Email Customization",
+            "description": "Personalize all system emails with your branding and messaging.",
+            "howToUse": "Tell Apper: 'Customize all emails with our brand colors and logo' or 'Make the welcome email more friendly and personal'"
+          }
+        ]
+      },
+      {
+        "id": "billing-revenue",
+        "title": "Billing and Revenue",
+        "content": "Ready to make money from your app? Apper makes it incredibly easy to set up payments and billing!",
+        "features": [
+          {
+            "icon": "💰",
+            "name": "Pricing Tiers",
+            "description": "Create different subscription plans with varying features and prices.",
+            "howToUse": "Ask Apper: 'Create three pricing tiers: Basic ($10/month), Pro ($25/month), and Enterprise ($50/month) with different features'"
+          },
+          {
+            "icon": "🎫",
+            "name": "Credits and Tokens",
+            "description": "Sell usage-based credits that users can spend on your app's features.",
+            "howToUse": "Try: 'Let users buy credit packs - 100 credits for $5, 500 credits for $20' for pay-per-use features"
           },
           {
             "icon": "🛒",
-            "name": "E-commerce Features",
-            "description": "Create shopping carts, product catalogs, and order management systems.",
-            "howToUse": "Request features like 'Add a shopping cart' or 'Create a product catalog with categories' and get a fully functional online store."
+            "name": "One-Time Purchases",
+            "description": "Sell products, services, or premium features as single purchases.",
+            "howToUse": "Ask: 'Add a one-time purchase option for premium templates at $15 each' or sell physical/digital products"
           },
           {
-            "icon": "📊",
-            "name": "Subscription Management",
-            "description": "Set up recurring payments and subscription services for your users.",
-            "howToUse": "Ask for 'monthly subscription billing' or 'premium membership options' and Apper creates the complete subscription infrastructure."
-          },
-          {
-            "icon": "🔒",
-            "name": "Security & Compliance",
-            "description": "All payment processing includes industry-standard security and compliance measures.",
-            "howToUse": "Apper automatically implements PCI compliance, SSL encryption, and secure payment handling without any technical setup required."
+            "icon": "💳",
+            "name": "Stripe Integration",
+            "description": "Secure payment processing through Stripe for credit cards and other payment methods.",
+            "howToUse": "Tell Apper: 'Connect Stripe for payments' and it handles all the technical setup. You just need to create a Stripe account"
           }
         ]
       },
       {
-        "id": "publishing",
-        "title": "Publishing Your App",
-        "content": "When your app is ready, publishing it to the web is incredibly simple:",
-        "steps": [
+        "id": "code-section",
+        "title": "Code Section (Optional)",
+        "content": "Good news - you can completely ignore this section! But here's what it's for if you're curious:",
+        "features": [
           {
-            "step": 1,
-            "title": "Review Your App",
-            "description": "Test all features and make sure everything works exactly as you want it."
+            "icon": "🚫",
+            "name": "Not Required",
+            "description": "You never need to look at or understand code to use Apper successfully.",
+            "howToUse": "Simply ignore this section completely! Apper handles all the technical programming automatically"
           },
           {
-            "step": 2,
-            "title": "Choose Your Domain",
-            "description": "Use a free Apper subdomain or connect your own custom domain name."
+            "icon": "👨‍💻",
+            "name": "For Developers",
+            "description": "Technical users can view and modify the actual code that powers your app.",
+            "howToUse": "Only useful if you're a programmer who wants to make advanced customizations that can't be done through conversation"
           },
           {
-            "step": 3,
-            "title": "Click Publish",
-            "description": "One click and your app is live on the internet with professional hosting and security."
+            "icon": "🔧",
+            "name": "Advanced Customization",
+            "description": "Developers can add custom functionality or integrate with external services.",
+            "howToUse": "If you have a developer friend, they can use this section to add very specific features that Apper can't create through chat"
           },
           {
-            "step": 4,
-            "title": "Share and Promote",
-            "description": "Get a shareable link and start promoting your new application to the world!"
+            "icon": "💡",
+            "name": "Learning Opportunity",
+            "description": "Curious about how apps work? You can peek at the code to learn!",
+            "howToUse": "Feel free to explore and see how Apper built your app, but remember - you never need to modify anything here"
+          }
+        ]
+      },
+      {
+        "id": "database-setup",
+        "title": "Database Setup",
+        "content": "Don't let the word 'database' scare you! It's just where your app stores information, and Apper handles everything automatically.",
+        "features": [
+          {
+            "icon": "🤖",
+            "name": "Automatic Setup",
+            "description": "Apper automatically creates and manages databases for your app's data storage needs.",
+            "howToUse": "Nothing to do here! When you ask for features like 'user accounts' or 'contact forms', Apper automatically sets up data storage"
+          },
+          {
+            "icon": "👨‍💼",
+            "name": "Employee Apps",
+            "description": "Apps for your team where everyone has access to shared company data and tools.",
+            "howToUse": "Tell Apper: 'Create an employee management system' - all staff can access shared information and tools"
+          },
+          {
+            "icon": "👥",
+            "name": "Customer-Facing Apps",
+            "description": "Apps for your customers where each user only sees their own data and account information.",
+            "howToUse": "Ask for: 'Build a customer portal' - each customer gets their own private account with their personal data"
+          },
+          {
+            "icon": "🔒",
+            "name": "Permission Management",
+            "description": "Control who can see and edit different types of information in your app.",
+            "howToUse": "Request: 'Only managers can see all employee data, regular staff can only see their own information' for proper privacy"
           }
         ]
       }
@@ -190,74 +438,94 @@
     {
       "id": 1,
       "question": "Do I need any technical skills to use Apper?",
-      "answer": "Not at all! Apper is designed for everyone, regardless of technical background. If you can describe what you want in plain English, you can create professional applications with Apper."
+      "answer": "Not at all! Apper is designed for everyone, regardless of technical background. If you can describe what you want in plain English, you can create professional applications with Apper. Think of it like having a conversation with a helpful friend who happens to be an expert developer."
     },
     {
       "id": 2,
       "question": "How long does it take to create an app?",
-      "answer": "Most applications are created within minutes of submitting your prompt. Complex apps with many features might take a bit longer, but you'll see progress in real-time as Apper builds your application."
+      "answer": "Most basic apps are created within minutes of submitting your prompt. More complex applications with many features might take 10-15 minutes, but you'll see progress in real-time as Apper builds your application. The best part is you can start using and testing your app immediately!"
     },
     {
       "id": 3,
       "question": "What if I want to change something after my app is created?",
-      "answer": "Making changes is easy! Just describe what you'd like to modify, and Apper will update your application accordingly. There's no limit to how many changes you can make."
+      "answer": "Making changes is incredibly easy! Just describe what you'd like to modify in the chat, and Apper will update your application accordingly. You can make unlimited changes - there's no limit to how many times you can refine and improve your app."
     },
     {
       "id": 4,
       "question": "Can I create any type of application?",
-      "answer": "Apper can create a wide variety of web applications including business websites, e-commerce stores, portfolios, blogs, booking systems, and much more. If you can describe it, Apper can likely build it!"
+      "answer": "Apper can create a vast variety of web applications including business websites, e-commerce stores, portfolios, blogs, booking systems, SaaS tools, games, databases, and much more. If you can describe it clearly, Apper can almost certainly build it!"
     },
     {
       "id": 5,
-      "question": "How much does it cost to publish my app?",
-      "answer": "Apper includes hosting and a subdomain for free. If you want to use your own custom domain or need advanced features, premium plans are available with transparent pricing."
+      "question": "How much does it cost to use Apper?",
+      "answer": "Apper offers various pricing plans to fit different needs. Basic app creation and hosting are available on free plans, while advanced features like custom domains, premium integrations, and higher usage limits are available on paid plans with transparent pricing."
     },
     {
       "id": 6,
       "question": "Is my app secure and reliable?",
-      "answer": "Yes! All Apper applications include industry-standard security measures, SSL encryption, and reliable hosting. Your users' data and your application are fully protected."
+      "answer": "Yes! All Apper applications include industry-standard security measures, SSL encryption, reliable hosting, and automatic backups. Your users' data and your application are fully protected with enterprise-grade security that you don't have to worry about."
     },
     {
       "id": 7,
-      "question": "Can I collaborate with others on my app?",
-      "answer": "Absolutely! You can invite team members to work on your application together. Everyone can make changes and suggestions using the same conversational interface."
+      "question": "Can I use my own domain name?",
+      "answer": "Absolutely! While Apper provides free subdomains (like yourapp.apper.com), you can easily connect your own custom domain name (like yourapp.com) to give your application a professional, branded web address."
     },
     {
       "id": 8,
-      "question": "What happens if I need help or support?",
-      "answer": "Apper includes comprehensive support to help you succeed. Our AI assistant can answer questions, and our support team is available to help with any challenges you encounter."
+      "question": "What happens if I need help or get stuck?",
+      "answer": "Apper includes comprehensive support to help you succeed. The AI assistant can answer most questions instantly, there's extensive documentation and tutorials, and human support is available for more complex issues. You're never alone in building your app!"
+    },
+    {
+      "id": 9,
+      "question": "Can I collaborate with team members on my app?",
+      "answer": "Yes! You can invite team members to collaborate on your application. Everyone can make changes and suggestions using the same conversational interface, making teamwork smooth and efficient."
+    },
+    {
+      "id": 10,
+      "question": "What if I want to migrate my app elsewhere later?",
+      "answer": "While Apper is designed to be your long-term solution, you always maintain control of your data. You can export your information, and since Apper generates standard web applications, migration options are available if your needs change significantly."
     }
   ],
   "tips": [
     {
       "id": 1,
-      "title": "Be Specific in Your Prompts",
-      "description": "The more details you provide about what you want, the better Apper can create exactly what you envision. Include information about colors, layout preferences, and specific features you need."
+      "title": "Start with Clear, Detailed Prompts",
+      "description": "The more specific you are about what you want, the better your results will be. Instead of 'make a website', try 'create a portfolio website for a wedding photographer with a gallery, contact form, booking calendar, and pricing page with elegant, romantic styling.'"
     },
     {
       "id": 2,
-      "title": "Start Simple, Then Expand",
-      "description": "Begin with a basic version of your app and then add features gradually. This approach helps you see progress quickly and ensures each addition works perfectly with what you already have."
+      "title": "Use ChatGPT to Improve Your Prompts",
+      "description": "Before submitting to Apper, ask ChatGPT: 'Help me write a detailed prompt for Apper to create [your idea]'. This often results in much more comprehensive and effective prompts that get you better results faster."
     },
     {
       "id": 3,
-      "title": "Use Real Examples",
-      "description": "When describing your app, reference websites or applications you admire. Saying 'make it like Amazon but for books' gives Apper a clear direction to follow."
+      "title": "Think About Your Users First",
+      "description": "Consider who will use your app and what they need to accomplish. Describe user scenarios like 'customers should be able to easily browse products, add items to cart, and checkout in under 3 clicks' to help Apper create better user experiences."
     },
     {
       "id": 4,
-      "title": "Test Everything Before Publishing",
-      "description": "Try all the features of your app before going live. Click every button, fill out every form, and make sure the user experience is exactly what you want."
+      "title": "Start Simple, Then Add Features",
+      "description": "Begin with a basic version of your app and then gradually add features through conversation. This approach helps you see progress quickly and ensures each new feature integrates well with what you already have."
     },
     {
       "id": 5,
-      "title": "Think About Your Users",
-      "description": "Consider who will use your app and what they need to accomplish. Describing user scenarios helps Apper create a more intuitive and user-friendly application."
+      "title": "Test Everything Before Publishing",
+      "description": "Click every button, fill out every form, and try every feature before making your app live. Test on both mobile and desktop views to ensure everything works perfectly for all your users."
     },
     {
       "id": 6,
-      "title": "Iterate and Improve",
-      "description": "Don't be afraid to ask for changes multiple times. Apper makes it easy to refine your application until it's exactly what you want. Perfection comes through iteration."
+      "title": "Use Real Examples and References",
+      "description": "When describing your app, reference existing websites or apps you admire. Saying 'make the layout like Airbnb but for local services' or 'design it similar to Stripe's clean, professional style' gives Apper clear direction."
+    },
+    {
+      "id": 7,
+      "title": "Don't Be Afraid to Iterate",
+      "description": "Your first version doesn't need to be perfect! Make changes, try different approaches, and refine your app through conversation. Apper makes it easy to experiment and improve until you're completely satisfied."
+    },
+    {
+      "id": 8,
+      "title": "Plan Your Content in Advance",
+      "description": "Have your text, images, and other content ready before you start. This helps you create more detailed prompts and speeds up the customization process once your app is built."
     }
   ]
 }

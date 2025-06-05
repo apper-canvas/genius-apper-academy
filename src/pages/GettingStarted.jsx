@@ -93,7 +93,7 @@ export default function GettingStarted() {
             Getting Started with Apper
           </Title>
           <Text className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Learn how to create amazing applications using Apper's simple conversation-based approach
+            A beginner-friendly, comprehensive guided tour for new users learning how to use Apper, the AI app builder
           </Text>
         </motion.div>
 
