@@ -1,109 +1,186 @@
 {
   "gettingStarted": {
-    "title": "Getting Started with Apper Academy",
-    "description": "Learn how to use Apper Academy to master app development through hands-on learning",
+    "title": "Getting Started with Apper",
+    "description": "Learn how to create amazing applications using Apper's simple conversation-based approach",
     "sections": [
       {
         "id": "what-is-apper",
-        "title": "What is Apper Academy?",
-        "content": "Apper Academy is your personal learning companion for mastering app development. Think of it as your friendly tutor who guides you step-by-step through creating amazing apps. Whether you're a complete beginner or looking to improve your skills, Apper Academy makes learning fun and easy.",
+        "title": "What is Apper?",
+        "content": "Apper is a revolutionary platform that lets you create professional web applications by simply describing what you want in plain English. Think of it as having a conversation with a skilled developer who understands exactly what you need and builds it for you instantly. No coding knowledge required!",
         "highlights": [
-          "Interactive lessons that teach by doing",
-          "Real coding exercises with instant feedback",
-          "Progress tracking to see how far you've come",
-          "Achievement system to celebrate your wins"
+          "Build apps by describing them in natural language",
+          "No coding or technical skills needed",
+          "Professional results in minutes, not months",
+          "Real applications that work on all devices"
         ]
       },
       {
-        "id": "getting-started",
-        "title": "How to Get Started",
-        "content": "Starting your learning journey is super easy! Just follow these simple steps:",
+        "id": "how-it-works",
+        "title": "How Apper Works",
+        "content": "Apper uses advanced AI to understand your app ideas and turn them into real, working applications. Here's the simple process:",
         "steps": [
           {
             "step": 1,
-            "title": "Choose Your First Lesson",
-            "description": "Browse through the available lessons on the main page. Start with 'Introduction to Apper' if you're new, or pick any topic that interests you."
+            "title": "Describe Your App",
+            "description": "Simply tell Apper what kind of app you want to create. For example: 'I want a restaurant website with a menu, contact form, and online ordering.'"
           },
           {
             "step": 2,
-            "title": "Read and Learn",
-            "description": "Each lesson has clear explanations and examples. Take your time to read through the content - there's no rush!"
+            "title": "Apper Builds It",
+            "description": "Our AI instantly creates your application based on your description, including all the features you requested."
           },
-{
+          {
             "step": 3,
-            "title": "Practice with Exercises",
-            "description": "Try the hands-on exercises to practice what you've learned. Don't worry if you make mistakes - that's how we learn!"
+            "title": "Customize and Refine",
+            "description": "Make changes by asking for them naturally: 'Change the color to blue' or 'Add a photo gallery section.'"
           },
           {
             "step": 4,
-            "title": "Complete and Move On",
-            "description": "Once you finish an exercise, you can move to the next lesson or review what you've learned. Your progress is saved automatically!"
+            "title": "Publish and Share",
+            "description": "When you're happy with your app, publish it with one click and share it with the world!"
           }
         ]
       },
       {
-        "id": "core-features",
-        "title": "Core Features",
-        "content": "Discover the powerful features that make Apper perfect for anyone who wants to create professional applications.",
+        "id": "creating-first-app",
+        "title": "Creating Your First App with a Prompt",
+        "content": "Getting started is incredibly simple. Here's how to create your first application:",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Start a New Project",
+            "description": "Click 'Create New App' and you'll see a text box where you can describe your idea."
+          },
+          {
+            "step": 2,
+            "title": "Write Your Prompt",
+            "description": "Describe your app clearly. Good examples: 'Create a portfolio website for a photographer' or 'Build a task management app for small teams.'"
+          },
+          {
+            "step": 3,
+            "title": "Be Specific",
+            "description": "Include details about features you want: contact forms, image galleries, user accounts, payment processing, etc."
+          },
+          {
+            "step": 4,
+            "title": "Submit and Watch",
+            "description": "Hit enter and watch as Apper builds your application in real-time. This usually takes just a few minutes!"
+          }
+        ]
+      },
+      {
+        "id": "customization",
+        "title": "Customizing Your App",
+        "content": "Once your app is created, you can easily customize every aspect of it using simple conversational commands:",
         "features": [
           {
             "icon": "🎨",
-          "name": "Visual Editor",
-          "description": "Create beautiful applications using our intuitive drag-and-drop interface. No design experience needed.",
-          "howToUse": "Simply drag components from the library onto your canvas, then customize them using the properties panel. Everything updates in real-time."
-        },
-        {
-          "icon": "📱",
-          "name": "Responsive Templates",
-          "description": "Start with professional templates that automatically adapt to all screen sizes and devices.",
-          "howToUse": "Choose a template that matches your vision, then customize colors, content, and layout. Your app will look great on phones, tablets, and computers."
-        },
-        {
-          "icon": "⚡",
-          "name": "Interactive Features",
-          "description": "Add forms, user accounts, payments, and other interactive elements without any technical setup.",
-          "howToUse": "Select the feature you want from the components panel and drop it onto your page. Apper automatically handles all the technical configuration."
-        },
-        {
-          "icon": "🚀",
-          "name": "Instant Publishing",
-          "description": "Publish your application to the web with one click. Custom domains and hosting included.",
-          "howToUse": "When you're ready to go live, click the publish button. Your app will be available on the internet immediately with professional hosting."
-        },
-        {
-          "icon": "👥",
-          "name": "Team Collaboration",
-          "description": "Work with your team in real-time. Share projects, assign roles, and see changes as they happen.",
-          "howToUse": "Invite team members via email and set their permission levels. Everyone can work together simultaneously without conflicts."
-},
-        {
-          "icon": "📊",
-          "name": "Analytics Dashboard",
-          "description": "Track your app's performance with detailed analytics and insights about user behavior and engagement.",
-          "howToUse": "Access the analytics dashboard from your project settings to view real-time data, user metrics, and performance insights."
-        }
-      ]
-    },
-    {
-      "id": "navigation-guide",
-        "title": "Getting Around the App",
-        "content": "Here's how to navigate through Apper Academy like a pro:",
-        "navigationTips": [
-          {
-            "area": "Main Dashboard",
-            "description": "This is your home base. You'll see all available lessons, your progress, and quick access to everything you need."
+            "name": "Design Changes",
+            "description": "Modify colors, fonts, layouts, and styling with simple requests.",
+            "howToUse": "Say things like 'Make the header blue' or 'Use a modern font throughout the site' and Apper will apply the changes instantly."
           },
           {
-            "area": "Lesson View",
-            "description": "When you open a lesson, you'll see the content on the left and interactive elements on the right. Use the arrow buttons to navigate between sections."
+            "icon": "📄",
+            "name": "Adding Pages",
+            "description": "Add new pages and sections to expand your application's functionality.",
+            "howToUse": "Request new pages by saying 'Add an About Us page' or 'Create a blog section' and Apper will build them with appropriate content and styling."
           },
           {
-            "area": "Progress Panel",
-            "description": "Shows how you're doing overall and in each lesson. The green bars mean you're doing great!"
+            "icon": "⚙️",
+            "name": "Feature Enhancement",
+            "description": "Add new features or modify existing ones without any technical complexity.",
+            "howToUse": "Ask for features like 'Add a search function' or 'Include social media sharing buttons' and they'll be integrated seamlessly."
           },
           {
-            "area": "Exercise Area",
-            "description": "This is where you'll complete hands-on activities. Follow the instructions and don't be afraid to experiment!"
+            "icon": "📱",
+            "name": "Mobile Optimization",
+            "description": "Ensure your app looks perfect on all devices with responsive design adjustments.",
+            "howToUse": "Request mobile improvements by saying 'Make the navigation mobile-friendly' or 'Optimize for tablet viewing' and Apper handles the technical details."
+          }
+        ]
+      },
+      {
+        "id": "login-signup",
+        "title": "Setting Up User Authentication",
+        "content": "Adding user accounts and authentication to your app is simple with Apper:",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Request User Accounts",
+            "description": "Tell Apper: 'Add user registration and login functionality' and it will create a complete authentication system."
+          },
+          {
+            "step": 2,
+            "title": "Customize User Experience",
+            "description": "Specify what you want: 'Users should be able to create profiles with photos' or 'Add password reset functionality.'"
+          },
+          {
+            "step": 3,
+            "title": "Set Permissions",
+            "description": "Define who can access what: 'Only logged-in users can post comments' or 'Admins can manage all content.'"
+          },
+          {
+            "step": 4,
+            "title": "Test and Launch",
+            "description": "Apper creates test accounts so you can verify everything works before going live."
+          }
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Adding Payment Processing",
+        "content": "Monetize your app by adding secure payment processing with just a simple request:",
+        "features": [
+          {
+            "icon": "💳",
+            "name": "Payment Integration",
+            "description": "Accept credit cards, PayPal, and other payment methods securely.",
+            "howToUse": "Simply ask: 'Add payment processing for selling products' and Apper integrates industry-standard payment systems with full security."
+          },
+          {
+            "icon": "🛒",
+            "name": "E-commerce Features",
+            "description": "Create shopping carts, product catalogs, and order management systems.",
+            "howToUse": "Request features like 'Add a shopping cart' or 'Create a product catalog with categories' and get a fully functional online store."
+          },
+          {
+            "icon": "📊",
+            "name": "Subscription Management",
+            "description": "Set up recurring payments and subscription services for your users.",
+            "howToUse": "Ask for 'monthly subscription billing' or 'premium membership options' and Apper creates the complete subscription infrastructure."
+          },
+          {
+            "icon": "🔒",
+            "name": "Security & Compliance",
+            "description": "All payment processing includes industry-standard security and compliance measures.",
+            "howToUse": "Apper automatically implements PCI compliance, SSL encryption, and secure payment handling without any technical setup required."
+          }
+        ]
+      },
+      {
+        "id": "publishing",
+        "title": "Publishing Your App",
+        "content": "When your app is ready, publishing it to the web is incredibly simple:",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Review Your App",
+            "description": "Test all features and make sure everything works exactly as you want it."
+          },
+          {
+            "step": 2,
+            "title": "Choose Your Domain",
+            "description": "Use a free Apper subdomain or connect your own custom domain name."
+          },
+          {
+            "step": 3,
+            "title": "Click Publish",
+            "description": "One click and your app is live on the internet with professional hosting and security."
+          },
+          {
+            "step": 4,
+            "title": "Share and Promote",
+            "description": "Get a shareable link and start promoting your new application to the world!"
           }
         ]
       }
@@ -112,70 +189,75 @@
   "faq": [
     {
       "id": 1,
-      "question": "I'm completely new to coding. Can I still use Apper Academy?",
-      "answer": "Absolutely! Apper Academy is designed for beginners. We start with the basics and explain everything in simple terms. You don't need any prior experience - just curiosity and willingness to learn!"
+      "question": "Do I need any technical skills to use Apper?",
+      "answer": "Not at all! Apper is designed for everyone, regardless of technical background. If you can describe what you want in plain English, you can create professional applications with Apper."
     },
     {
       "id": 2,
-      "question": "How long does it take to complete a lesson?",
-      "answer": "Most lessons take 15-30 minutes to complete. But don't worry about time - go at your own pace. Some people prefer to take their time, while others move quickly. There's no right or wrong speed!"
+      "question": "How long does it take to create an app?",
+      "answer": "Most applications are created within minutes of submitting your prompt. Complex apps with many features might take a bit longer, but you'll see progress in real-time as Apper builds your application."
     },
     {
       "id": 3,
-      "question": "What if I get stuck on an exercise?",
-      "answer": "Getting stuck is totally normal and part of learning! Try reading the lesson content again, look at the examples, or take a break and come back later. Remember, you can attempt exercises as many times as you want."
+      "question": "What if I want to change something after my app is created?",
+      "answer": "Making changes is easy! Just describe what you'd like to modify, and Apper will update your application accordingly. There's no limit to how many changes you can make."
     },
     {
       "id": 4,
-      "question": "Can I skip lessons or do them out of order?",
-      "answer": "You can explore any lesson that interests you! However, we recommend following the suggested order, especially if you're new to app development, as lessons build on previous concepts."
+      "question": "Can I create any type of application?",
+      "answer": "Apper can create a wide variety of web applications including business websites, e-commerce stores, portfolios, blogs, booking systems, and much more. If you can describe it, Apper can likely build it!"
     },
     {
       "id": 5,
-      "question": "How do I track my progress?",
-      "answer": "Your progress is automatically saved as you complete lessons and exercises. Check the progress bars on your dashboard to see how you're doing. Completed items show in green!"
+      "question": "How much does it cost to publish my app?",
+      "answer": "Apper includes hosting and a subdomain for free. If you want to use your own custom domain or need advanced features, premium plans are available with transparent pricing."
     },
     {
       "id": 6,
-      "question": "What are achievements and how do I earn them?",
-      "answer": "Achievements are special badges you earn for reaching milestones, like completing your first lesson or finishing a series of exercises. They unlock automatically - just keep learning and you'll earn them!"
+      "question": "Is my app secure and reliable?",
+      "answer": "Yes! All Apper applications include industry-standard security measures, SSL encryption, and reliable hosting. Your users' data and your application are fully protected."
     },
     {
       "id": 7,
-      "question": "Can I use Apper Academy on my phone or tablet?",
-      "answer": "Yes! Apper Academy works on phones, tablets, and computers. The interface adapts to your screen size, so you can learn anywhere, anytime."
+      "question": "Can I collaborate with others on my app?",
+      "answer": "Absolutely! You can invite team members to work on your application together. Everyone can make changes and suggestions using the same conversational interface."
     },
     {
       "id": 8,
-      "question": "Is my progress saved automatically?",
-      "answer": "Yes! Everything you do is saved automatically. You can close the app and come back later, and your progress will be right where you left it."
+      "question": "What happens if I need help or support?",
+      "answer": "Apper includes comprehensive support to help you succeed. Our AI assistant can answer questions, and our support team is available to help with any challenges you encounter."
     }
   ],
   "tips": [
     {
       "id": 1,
-      "title": "Take Your Time",
-      "description": "Learning is not a race. Take time to understand each concept before moving on. It's better to understand one thing well than to rush through many things."
+      "title": "Be Specific in Your Prompts",
+      "description": "The more details you provide about what you want, the better Apper can create exactly what you envision. Include information about colors, layout preferences, and specific features you need."
     },
     {
       "id": 2,
-      "title": "Practice Regularly",
-      "description": "Even 15 minutes a day can make a big difference. Consistent practice helps you remember what you've learned and builds confidence."
+      "title": "Start Simple, Then Expand",
+      "description": "Begin with a basic version of your app and then add features gradually. This approach helps you see progress quickly and ensures each addition works perfectly with what you already have."
     },
     {
       "id": 3,
-      "title": "Don't Fear Mistakes",
-      "description": "Mistakes are learning opportunities! Every expert was once a beginner who made lots of mistakes. Embrace them and learn from them."
+      "title": "Use Real Examples",
+      "description": "When describing your app, reference websites or applications you admire. Saying 'make it like Amazon but for books' gives Apper a clear direction to follow."
     },
     {
       "id": 4,
-      "title": "Experiment in the Playground",
-      "description": "Use the code playground to try new things. It's a safe space to experiment and see what happens when you change different parts of the code."
+      "title": "Test Everything Before Publishing",
+      "description": "Try all the features of your app before going live. Click every button, fill out every form, and make sure the user experience is exactly what you want."
     },
     {
       "id": 5,
-      "title": "Celebrate Small Wins",
-      "description": "Completed an exercise? Understood a new concept? Celebrate these moments! Learning is made up of many small victories."
+      "title": "Think About Your Users",
+      "description": "Consider who will use your app and what they need to accomplish. Describing user scenarios helps Apper create a more intuitive and user-friendly application."
+    },
+    {
+      "id": 6,
+      "title": "Iterate and Improve",
+      "description": "Don't be afraid to ask for changes multiple times. Apper makes it easy to refine your application until it's exactly what you want. Perfection comes through iteration."
     }
   ]
 }
