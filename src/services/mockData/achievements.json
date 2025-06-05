@@ -1,0 +1,111 @@
+[
+  {
+    "id": "ach1",
+    "name": "First Steps",
+    "description": "Complete your first lesson in ApperAcademy",
+    "icon": "Award",
+    "criteria": {
+      "type": "lesson_completed",
+      "count": 1
+    },
+    "unlockedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "ach2",
+    "name": "Getting Started Graduate",
+    "description": "Complete all lessons in the Getting Started module",
+    "icon": "GraduationCap",
+    "criteria": {
+      "type": "module_completed",
+      "module": "Getting Started"
+    },
+    "unlockedAt": "2024-01-15T11:15:00Z"
+  },
+  {
+    "id": "ach3",
+    "name": "Code Explorer",
+    "description": "Complete 5 coding exercises",
+    "icon": "Code",
+    "criteria": {
+      "type": "exercises_completed",
+      "count": 5
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach4",
+    "name": "Quick Learner",
+    "description": "Complete a lesson in under 5 minutes",
+    "icon": "Zap",
+    "criteria": {
+      "type": "lesson_time",
+      "maxTime": 300
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach5",
+    "name": "Perfect Score",
+    "description": "Score 100% on any lesson",
+    "icon": "Star",
+    "criteria": {
+      "type": "perfect_score",
+      "score": 100
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach6",
+    "name": "Core Concepts Master",
+    "description": "Complete all Core Concepts lessons",
+    "icon": "Brain",
+    "criteria": {
+      "type": "module_completed",
+      "module": "Core Concepts"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach7",
+    "name": "Advanced Developer",
+    "description": "Complete all Advanced Features lessons",
+    "icon": "Rocket",
+    "criteria": {
+      "type": "module_completed",
+      "module": "Advanced Features"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach8",
+    "name": "Best Practices Expert",
+    "description": "Complete all Best Practices lessons",
+    "icon": "CheckCircle",
+    "criteria": {
+      "type": "module_completed",
+      "module": "Best Practices"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach9",
+    "name": "Apper Master",
+    "description": "Complete all lessons in ApperAcademy",
+    "icon": "Crown",
+    "criteria": {
+      "type": "all_lessons_completed"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "ach10",
+    "name": "Marathon Learner",
+    "description": "Study for more than 2 hours total",
+    "icon": "Clock",
+    "criteria": {
+      "type": "total_time",
+      "minTime": 7200
+    },
+    "unlockedAt": null
+  }
+]

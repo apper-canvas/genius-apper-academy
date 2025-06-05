@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "lessonId": "1",
+    "completed": true,
+    "completedAt": "2024-01-15T10:30:00Z",
+    "exercisesCompleted": ["ex1"],
+    "timeSpent": 6,
+    "score": 95
+  },
+  {
+    "id": "p2",
+    "lessonId": "2",
+    "completed": true,
+    "completedAt": "2024-01-15T11:15:00Z",
+    "exercisesCompleted": ["ex2"],
+    "timeSpent": 9,
+    "score": 88
+  },
+  {
+    "id": "p3",
+    "lessonId": "3",
+    "completed": false,
+    "completedAt": null,
+    "exercisesCompleted": [],
+    "timeSpent": 3,
+    "score": 0
+  }
+]

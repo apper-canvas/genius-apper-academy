@@ -1,0 +1,335 @@
+[
+  {
+    "id": "1",
+    "title": "Welcome to Apper",
+    "description": "Learn what Apper is and how it transforms your development workflow",
+    "module": "Getting Started",
+    "order": 1,
+    "content": [
+      {
+        "type": "text",
+        "content": "Welcome to ApperAcademy! Apper is a revolutionary platform that helps developers create applications through intelligent code generation and interactive design tools. In this lesson, you'll discover how Apper works by experiencing its core features firsthand."
+      },
+      {
+        "type": "interactive",
+        "content": "Click the button below to see Apper generate a simple component"
+      },
+      {
+        "type": "text",
+        "content": "As you just experienced, Apper takes natural language descriptions and transforms them into working code. This is just the beginning of what's possible with our platform."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex1",
+        "step": 1,
+        "type": "text",
+        "question": "Describe in your own words what you think Apper's main benefit is for developers.",
+        "expectedAnswer": "automation",
+        "hint": "Think about how Apper reduces the time spent on repetitive coding tasks."
+      }
+    ],
+    "estimatedTime": 5,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "2",
+    "title": "Creating Your First Component",
+    "description": "Learn how to use Apper's component generator with hands-on practice",
+    "module": "Getting Started",
+    "order": 2,
+    "content": [
+      {
+        "type": "text",
+        "content": "Now that you understand what Apper does, let's create your first component. Apper's component generator takes a simple description and creates a fully functional React component with proper styling and functionality."
+      },
+      {
+        "type": "code",
+        "content": "// Example: Apper-generated button component\nconst CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}"
+      },
+      {
+        "type": "text",
+        "content": "This component was generated automatically from the description 'Create a customizable button with primary and secondary variants'."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex2",
+        "step": 2,
+        "type": "code",
+        "question": "Modify the button component to add a 'danger' variant that uses red colors.",
+        "initialCode": "const CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}",
+        "expectedAnswer": "danger",
+        "hint": "Add another condition to the className template literal for variant === 'danger'"
+      }
+    ],
+    "estimatedTime": 8,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "3",
+    "title": "Understanding Apper's AI Engine",
+    "description": "Dive deeper into how Apper's AI interprets your requirements",
+    "module": "Core Concepts",
+    "order": 1,
+    "content": [
+      {
+        "type": "text",
+        "content": "Apper's AI engine is the heart of the platform. It uses advanced natural language processing to understand your requirements and translate them into working code. The more specific your descriptions, the better the generated code will match your needs."
+      },
+      {
+        "type": "interactive",
+        "content": "Try describing a component: 'A responsive navigation bar with logo, menu items, and mobile hamburger menu'"
+      },
+      {
+        "type": "text",
+        "content": "The AI engine considers factors like responsiveness, accessibility, and modern design patterns when generating your components."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex3",
+        "step": 1,
+        "type": "text",
+        "question": "Write a detailed description for a user profile card component that the AI could use to generate code.",
+        "expectedAnswer": "profile",
+        "hint": "Include details about what information should be displayed, styling preferences, and any interactive elements."
+      }
+    ],
+    "estimatedTime": 10,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "4",
+    "title": "Responsive Design with Apper",
+    "description": "Learn how Apper automatically creates responsive layouts",
+    "module": "Core Concepts",
+    "order": 2,
+    "content": [
+      {
+        "type": "text",
+        "content": "One of Apper's strengths is its ability to generate responsive designs automatically. When you describe a component, Apper considers various screen sizes and creates CSS that adapts accordingly."
+      },
+      {
+        "type": "code",
+        "content": "// Apper-generated responsive grid\n<div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\">\n  {items.map(item => (\n    <div key={item.id} className=\"bg-white p-6 rounded-lg shadow-md\">\n      <h3 className=\"text-lg font-semibold mb-2\">{item.title}</h3>\n      <p className=\"text-gray-600\">{item.description}</p>\n    </div>\n  ))}\n</div>"
+      },
+      {
+        "type": "text",
+        "content": "Notice how Apper uses Tailwind CSS classes to create a responsive grid that stacks on mobile, shows 2 columns on tablets, and 3 columns on desktop."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex4",
+        "step": 2,
+        "type": "text",
+        "question": "What Tailwind CSS breakpoint prefixes does Apper commonly use for responsive design?",
+        "expectedAnswer": "md lg",
+        "hint": "Look at the grid example above - what prefixes are used before the column classes?"
+      }
+    ],
+    "estimatedTime": 12,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "5",
+    "title": "State Management in Generated Components",
+    "description": "Explore how Apper handles React state and event handling",
+    "module": "Advanced Features",
+    "order": 1,
+    "content": [
+      {
+        "type": "text",
+        "content": "Apper doesn't just generate static components - it understands when you need state management and automatically includes React hooks and event handlers."
+      },
+      {
+        "type": "code",
+        "content": "// Apper-generated form with state\nconst ContactForm = () => {\n  const [formData, setFormData] = useState({ name: '', email: '', message: '' })\n  const [loading, setLoading] = useState(false)\n\n  const handleSubmit = async (e) => {\n    e.preventDefault()\n    setLoading(true)\n    // Submit logic here\n    setLoading(false)\n  }\n\n  return (\n    <form onSubmit={handleSubmit} className=\"space-y-4\">\n      {/* Form fields */}\n    </form>\n  )\n}"
+      },
+      {
+        "type": "text",
+        "content": "Apper automatically includes proper form handling, loading states, and error handling based on your component description."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex5",
+        "step": 1,
+        "type": "code",
+        "question": "Add error state handling to the form component above.",
+        "initialCode": "const [formData, setFormData] = useState({ name: '', email: '', message: '' })\nconst [loading, setLoading] = useState(false)\n// Add error state here",
+        "expectedAnswer": "error",
+        "hint": "You'll need to add a useState hook for error state, similar to the loading state."
+      }
+    ],
+    "estimatedTime": 15,
+    "difficulty": "advanced"
+  },
+  {
+    "id": "6",
+    "title": "Styling and Theming",
+    "description": "Learn how Apper applies consistent styling and themes",
+    "module": "Advanced Features",
+    "order": 2,
+    "content": [
+      {
+        "type": "text",
+        "content": "Apper uses modern CSS frameworks like Tailwind CSS to create beautiful, consistent designs. It automatically applies design systems and ensures your components follow best practices."
+      },
+      {
+        "type": "interactive",
+        "content": "Customize the theme colors for this component using Apper's theme generator"
+      },
+      {
+        "type": "text",
+        "content": "Apper can generate components that match your brand colors, typography preferences, and design language automatically."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex6",
+        "step": 1,
+        "type": "text",
+        "question": "Describe how you would ask Apper to create a component that matches a specific brand color scheme.",
+        "expectedAnswer": "brand colors",
+        "hint": "Think about including specific color values or design system references in your description."
+      }
+    ],
+    "estimatedTime": 8,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "7",
+    "title": "API Integration Patterns",
+    "description": "Discover how Apper generates components that work with APIs",
+    "module": "Advanced Features",
+    "order": 3,
+    "content": [
+      {
+        "type": "text",
+        "content": "Apper understands common API patterns and can generate components that fetch data, handle loading states, and manage errors automatically."
+      },
+      {
+        "type": "code",
+        "content": "// Apper-generated API component\nconst UserList = () => {\n  const [users, setUsers] = useState([])\n  const [loading, setLoading] = useState(true)\n  const [error, setError] = useState(null)\n\n  useEffect(() => {\n    const fetchUsers = async () => {\n      try {\n        const response = await fetch('/api/users')\n        const data = await response.json()\n        setUsers(data)\n      } catch (err) {\n        setError(err.message)\n      } finally {\n        setLoading(false)\n      }\n    }\n    fetchUsers()\n  }, [])\n\n  if (loading) return <div>Loading...</div>\n  if (error) return <div>Error: {error}</div>\n\n  return (\n    <div className=\"grid gap-4\">\n      {users.map(user => (\n        <UserCard key={user.id} user={user} />\n      ))}\n    </div>\n  )\n}"
+      },
+      {
+        "type": "text",
+        "content": "This component includes proper error handling, loading states, and follows React best practices for data fetching."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex7",
+        "step": 2,
+        "type": "text",
+        "question": "What are the three essential states that Apper includes in API-connected components?",
+        "expectedAnswer": "loading error data",
+        "hint": "Look at the useState hooks in the example - what three things does the component track?"
+      }
+    ],
+    "estimatedTime": 18,
+    "difficulty": "advanced"
+  },
+  {
+    "id": "8",
+    "title": "Testing Generated Components",
+    "description": "Learn how to test and validate Apper-generated code",
+    "module": "Best Practices",
+    "order": 1,
+    "content": [
+      {
+        "type": "text",
+        "content": "Apper generates clean, testable code. Generated components follow React testing best practices and include proper props, state management, and accessibility features."
+      },
+      {
+        "type": "code",
+        "content": "// Testing an Apper-generated component\nimport { render, screen, fireEvent } from '@testing-library/react'\nimport { CustomButton } from './CustomButton'\n\ntest('renders button with correct variant', () => {\n  render(<CustomButton variant=\"primary\">Click me</CustomButton>)\n  const button = screen.getByRole('button', { name: /click me/i })\n  expect(button).toHaveClass('bg-blue-600')\n})\n\ntest('calls onClick when clicked', () => {\n  const handleClick = jest.fn()\n  render(<CustomButton onClick={handleClick}>Click me</CustomButton>)\n  fireEvent.click(screen.getByRole('button'))\n  expect(handleClick).toHaveBeenCalledTimes(1)\n})"
+      },
+      {
+        "type": "text",
+        "content": "Apper-generated components are designed to be easily testable with standard React testing tools."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex8",
+        "step": 1,
+        "type": "text",
+        "question": "Why is it important to test Apper-generated components?",
+        "expectedAnswer": "validation reliability",
+        "hint": "Think about ensuring the generated code works as expected and meets your requirements."
+      }
+    ],
+    "estimatedTime": 12,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "9",
+    "title": "Customizing Generated Code",
+    "description": "Learn how to modify and extend Apper's output",
+    "module": "Best Practices",
+    "order": 2,
+    "content": [
+      {
+        "type": "text",
+        "content": "While Apper generates excellent starting code, you'll often want to customize and extend it. Apper's output is designed to be easily modifiable and follows standard React patterns."
+      },
+      {
+        "type": "interactive",
+        "content": "Modify this generated component to add additional functionality"
+      },
+      {
+        "type": "text",
+        "content": "The key is understanding the generated code structure so you can confidently make changes and additions."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex9",
+        "step": 1,
+        "type": "code",
+        "question": "Add a disabled prop to the CustomButton component.",
+        "initialCode": "const CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}",
+        "expectedAnswer": "disabled",
+        "hint": "Add disabled to the props destructuring and use it in both the className and as a button attribute."
+      }
+    ],
+    "estimatedTime": 10,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "10",
+    "title": "Advanced Apper Techniques",
+    "description": "Master advanced Apper features and optimization strategies",
+    "module": "Best Practices",
+    "order": 3,
+    "content": [
+      {
+        "type": "text",
+        "content": "As you become more experienced with Apper, you can leverage advanced techniques to generate more sophisticated applications. This includes complex state management, performance optimization, and integration with modern development tools."
+      },
+      {
+        "type": "code",
+        "content": "// Advanced Apper pattern: Context + Custom Hook\nconst ThemeContext = createContext()\n\nexport const useTheme = () => {\n  const context = useContext(ThemeContext)\n  if (!context) {\n    throw new Error('useTheme must be used within ThemeProvider')\n  }\n  return context\n}\n\nexport const ThemeProvider = ({ children }) => {\n  const [theme, setTheme] = useState('light')\n  \n  const toggleTheme = () => {\n    setTheme(prev => prev === 'light' ? 'dark' : 'light')\n  }\n\n  return (\n    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n      {children}\n    </ThemeContext.Provider>\n  )\n}"
+      },
+      {
+        "type": "text",
+        "content": "Apper can generate complex patterns like Context providers, custom hooks, and performance-optimized components when given detailed descriptions."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex10",
+        "step": 2,
+        "type": "text",
+        "question": "Describe a scenario where you would want Apper to generate a custom hook instead of a regular component.",
+        "expectedAnswer": "reusable logic",
+        "hint": "Think about when you need to share stateful logic between multiple components."
+      }
+    ],
+    "estimatedTime": 20,
+    "difficulty": "advanced"
+  }
+]

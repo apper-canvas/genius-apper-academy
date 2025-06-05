@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ce1",
+    "title": "Basic Button Component",
+    "description": "A simple, customizable button component with variants",
+    "code": "const Button = ({ variant = 'primary', children, onClick, disabled }) => {\n  const baseClasses = 'px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2'\n  \n  const variantClasses = {\n    primary: 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500',\n    secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-500',\n    danger: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500'\n  }\n  \n  const disabledClasses = 'opacity-50 cursor-not-allowed'\n  \n  return (\n    <button\n      className={`${baseClasses} ${variantClasses[variant]} ${disabled ? disabledClasses : ''}`}\n      onClick={onClick}\n      disabled={disabled}\n    >\n      {children}\n    </button>\n  )\n}",
+    "language": "javascript",
+    "tags": ["react", "component", "button", "ui"],
+    "relatedLessons": ["1", "2"]
+  },
+  {
+    "id": "ce2",
+    "title": "Data Fetching Hook",
+    "description": "Custom hook for handling API requests with loading and error states",
+    "code": "import { useState, useEffect } from 'react'\n\nexport const useApi = (url) => {\n  const [data, setData] = useState(null)\n  const [loading, setLoading] = useState(true)\n  const [error, setError] = useState(null)\n\n  useEffect(() => {\n    const fetchData = async () => {\n      try {\n        setLoading(true)\n        setError(null)\n        const response = await fetch(url)\n        if (!response.ok) {\n          throw new Error(`HTTP error! status: ${response.status}`)\n        }\n        const result = await response.json()\n        setData(result)\n      } catch (err) {\n        setError(err.message)\n      } finally {\n        setLoading(false)\n      }\n    }\n\n    if (url) {\n      fetchData()\n    }\n  }, [url])\n\n  return { data, loading, error }\n}",
+    "language": "javascript",
+    "tags": ["react", "hook", "api", "data-fetching"],
+    "relatedLessons": ["7", "10"]
+  },
+  {
+    "id": "ce3",
+    "title": "Responsive Card Grid",
+    "description": "A responsive grid layout that adapts to different screen sizes",
+    "code": "<div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6\">\n  {items.map(item => (\n    <div key={item.id} className=\"bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow\">\n      <img \n        src={item.image} \n        alt={item.title}\n        className=\"w-full h-48 object-cover\"\n      />\n      <div className=\"p-4\">\n        <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n          {item.title}\n        </h3>\n        <p className=\"text-gray-600 text-sm mb-3\">\n          {item.description}\n        </p>\n        <div className=\"flex items-center justify-between\">\n          <span className=\"text-lg font-bold text-blue-600\">\n            ${item.price}\n          </span>\n          <button className=\"px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700\">\n            Add to Cart\n          </button>\n        </div>\n      </div>\n    </div>\n  ))}\n</div>",
+    "language": "javascript",
+    "tags": ["react", "responsive", "grid", "cards"],
+    "relatedLessons": ["4", "6"]
+  },
+  {
+    "id": "ce4",
+    "title": "Form with Validation",
+    "description": "A complete form component with input validation and error handling",
+    "code": "import { useState } from 'react'\n\nconst ContactForm = () => {\n  const [formData, setFormData] = useState({\n    name: '',\n    email: '',\n    message: ''\n  })\n  const [errors, setErrors] = useState({})\n  const [loading, setLoading] = useState(false)\n\n  const validateForm = () => {\n    const newErrors = {}\n    \n    if (!formData.name.trim()) {\n      newErrors.name = 'Name is required'\n    }\n    \n    if (!formData.email.trim()) {\n      newErrors.email = 'Email is required'\n    } else if (!/\\S+@\\S+\\.\\S+/.test(formData.email)) {\n      newErrors.email = 'Email is invalid'\n    }\n    \n    if (!formData.message.trim()) {\n      newErrors.message = 'Message is required'\n    }\n    \n    setErrors(newErrors)\n    return Object.keys(newErrors).length === 0\n  }\n\n  const handleSubmit = async (e) => {\n    e.preventDefault()\n    \n    if (!validateForm()) return\n    \n    setLoading(true)\n    try {\n      // Submit form data\n      await new Promise(resolve => setTimeout(resolve, 1000))\n      alert('Message sent successfully!')\n      setFormData({ name: '', email: '', message: '' })\n    } catch (error) {\n      alert('Failed to send message')\n    } finally {\n      setLoading(false)\n    }\n  }\n\n  const handleChange = (e) => {\n    const { name, value } = e.target\n    setFormData(prev => ({ ...prev, [name]: value }))\n    if (errors[name]) {\n      setErrors(prev => ({ ...prev, [name]: '' }))\n    }\n  }\n\n  return (\n    <form onSubmit={handleSubmit} className=\"space-y-4 max-w-md mx-auto\">\n      <div>\n        <label className=\"block text-sm font-medium text-gray-700 mb-1\">\n          Name\n        </label>\n        <input\n          type=\"text\"\n          name=\"name\"\n          value={formData.name}\n          onChange={handleChange}\n          className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${\n            errors.name ? 'border-red-500' : 'border-gray-300'\n          }`}\n        />\n        {errors.name && (\n          <p className=\"text-red-500 text-sm mt-1\">{errors.name}</p>\n        )}\n      </div>\n\n      <div>\n        <label className=\"block text-sm font-medium text-gray-700 mb-1\">\n          Email\n        </label>\n        <input\n          type=\"email\"\n          name=\"email\"\n          value={formData.email}\n          onChange={handleChange}\n          className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${\n            errors.email ? 'border-red-500' : 'border-gray-300'\n          }`}\n        />\n        {errors.email && (\n          <p className=\"text-red-500 text-sm mt-1\">{errors.email}</p>\n        )}\n      </div>\n\n      <div>\n        <label className=\"block text-sm font-medium text-gray-700 mb-1\">\n          Message\n        </label>\n        <textarea\n          name=\"message\"\n          rows={4}\n          value={formData.message}\n          onChange={handleChange}\n          className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${\n            errors.message ? 'border-red-500' : 'border-gray-300'\n          }`}\n        />\n        {errors.message && (\n          <p className=\"text-red-500 text-sm mt-1\">{errors.message}</p>\n        )}\n      </div>\n\n      <button\n        type=\"submit\"\n        disabled={loading}\n        className=\"w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed\"\n      >\n        {loading ? 'Sending...' : 'Send Message'}\n      </button>\n    </form>\n  )\n}",
+    "language": "javascript",
+    "tags": ["react", "form", "validation", "state"],
+    "relatedLessons": ["5", "8"]
+  },
+  {
+    "id": "ce5",
+    "title": "Theme Provider Context",
+    "description": "A theme system using React Context for dark/light mode",
+    "code": "import { createContext, useContext, useState, useEffect } from 'react'\n\nconst ThemeContext = createContext()\n\nexport const useTheme = () => {\n  const context = useContext(ThemeContext)\n  if (!context) {\n    throw new Error('useTheme must be used within a ThemeProvider')\n  }\n  return context\n}\n\nexport const ThemeProvider = ({ children }) => {\n  const [theme, setTheme] = useState(() => {\n    // Check localStorage or system preference\n    const stored = localStorage.getItem('theme')\n    if (stored) return stored\n    \n    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'\n  })\n\n  useEffect(() => {\n    localStorage.setItem('theme', theme)\n    document.documentElement.classList.toggle('dark', theme === 'dark')\n  }, [theme])\n\n  const toggleTheme = () => {\n    setTheme(prev => prev === 'light' ? 'dark' : 'light')\n  }\n\n  const value = {\n    theme,\n    toggleTheme,\n    isDark: theme === 'dark'\n  }\n\n  return (\n    <ThemeContext.Provider value={value}>\n      {children}\n    </ThemeContext.Provider>\n  )\n}\n\n// Usage example\nconst ThemeToggle = () => {\n  const { theme, toggleTheme } = useTheme()\n  \n  return (\n    <button\n      onClick={toggleTheme}\n      className=\"p-2 rounded-md bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200\"\n    >\n      {theme === 'light' ? '🌙' : '☀️'}\n    </button>\n  )\n}",
+    "language": "javascript",
+    "tags": ["react", "context", "theme", "dark-mode"],
+    "relatedLessons": ["10", "6"]
+  }
+]
