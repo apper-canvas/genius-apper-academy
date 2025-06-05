@@ -97,7 +97,8 @@ return (
         getOverallProgress={getOverallProgress}
         startTour={startTour}
         tourActive={tourActive}
-        setTourActive={setTourActive}
+setTourActive={setTourActive}
         error={error}
       />
     );
+}
