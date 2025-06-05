@@ -89,11 +89,11 @@ export default function GettingStarted() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <Title level="h1" className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent mb-4">
-            Getting Started Guide
+<Title level="h1" className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent mb-4">
+            Getting Started with Apper
           </Title>
           <Text className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to know to start your learning journey with Apper Academy
+            Learn how to use Apper to create amazing applications without any technical knowledge
           </Text>
         </motion.div>
 

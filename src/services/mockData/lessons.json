@@ -1,22 +1,22 @@
 [
   {
     "id": "1",
-    "title": "Welcome to Apper",
-    "description": "Learn what Apper is and how it transforms your development workflow",
+    "title": "Getting Started with Apper",
+    "description": "Learn what Apper is and how it helps you create amazing applications without coding",
     "module": "Getting Started",
     "order": 1,
     "content": [
       {
         "type": "text",
-        "content": "Welcome to ApperAcademy! Apper is a revolutionary platform that helps developers create applications through intelligent code generation and interactive design tools. In this lesson, you'll discover how Apper works by experiencing its core features firsthand."
+        "content": "Welcome to Apper Academy! Apper is a revolutionary platform that lets anyone create professional applications without writing code. Whether you're a business owner, designer, or entrepreneur, Apper transforms your ideas into working applications through an intuitive visual interface."
       },
       {
         "type": "interactive",
-        "content": "Click the button below to see Apper generate a simple component"
+        "content": "Click the 'Create New Project' button to experience how easy it is to start building with Apper"
       },
       {
         "type": "text",
-        "content": "As you just experienced, Apper takes natural language descriptions and transforms them into working code. This is just the beginning of what's possible with our platform."
+        "content": "As you just experienced, Apper makes application creation accessible to everyone. You simply describe what you want, drag and drop components, and Apper handles all the technical complexity behind the scenes."
       }
     ],
     "exercises": [
@@ -24,9 +24,9 @@
         "id": "ex1",
         "step": 1,
         "type": "text",
-        "question": "Describe in your own words what you think Apper's main benefit is for developers.",
-        "expectedAnswer": "automation",
-        "hint": "Think about how Apper reduces the time spent on repetitive coding tasks."
+        "question": "In your own words, what is the main benefit of using Apper for creating applications?",
+        "expectedAnswer": "no coding required",
+        "hint": "Think about how Apper removes technical barriers and makes app creation accessible to everyone."
       }
     ],
     "estimatedTime": 5,
@@ -34,33 +34,32 @@
   },
   {
     "id": "2",
-    "title": "Creating Your First Component",
-    "description": "Learn how to use Apper's component generator with hands-on practice",
+    "title": "Creating Your First Project",
+    "description": "Learn how to start a new project and explore Apper's workspace",
     "module": "Getting Started",
     "order": 2,
     "content": [
       {
         "type": "text",
-        "content": "Now that you understand what Apper does, let's create your first component. Apper's component generator takes a simple description and creates a fully functional React component with proper styling and functionality."
+        "content": "Now that you understand what Apper does, let's create your first project. Apper's project wizard guides you through choosing the right template and customizing it for your needs. Whether you're building a website, mobile app, or web application, there's a template to get you started."
       },
       {
-        "type": "code",
-        "content": "// Example: Apper-generated button component\nconst CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}"
+        "type": "interactive",
+        "content": "Try creating a project: Choose 'Business Website' template and give it a name"
       },
       {
         "type": "text",
-        "content": "This component was generated automatically from the description 'Create a customizable button with primary and secondary variants'."
+        "content": "Great! You've just created your first project. Notice how Apper automatically set up a professional-looking structure with pages, navigation, and sample content that you can customize."
       }
     ],
     "exercises": [
       {
         "id": "ex2",
         "step": 2,
-        "type": "code",
-        "question": "Modify the button component to add a 'danger' variant that uses red colors.",
-        "initialCode": "const CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}",
-        "expectedAnswer": "danger",
-        "hint": "Add another condition to the className template literal for variant === 'danger'"
+        "type": "text",
+        "question": "What type of project template would you choose for an online store?",
+        "expectedAnswer": "ecommerce",
+        "hint": "Think about what type of business sells products online."
       }
     ],
     "estimatedTime": 8,
@@ -68,22 +67,22 @@
   },
   {
     "id": "3",
-    "title": "Understanding Apper's AI Engine",
-    "description": "Dive deeper into how Apper's AI interprets your requirements",
+    "title": "Understanding Apper's Interface",
+    "description": "Master the main workspace and learn where everything is located",
     "module": "Core Concepts",
     "order": 1,
     "content": [
       {
         "type": "text",
-        "content": "Apper's AI engine is the heart of the platform. It uses advanced natural language processing to understand your requirements and translate them into working code. The more specific your descriptions, the better the generated code will match your needs."
+        "content": "Apper's interface is designed to be intuitive and powerful. The main workspace consists of several key areas: the Canvas (where you design), the Components Panel (building blocks), the Properties Panel (customization options), and the Pages Panel (site structure)."
       },
       {
         "type": "interactive",
-        "content": "Try describing a component: 'A responsive navigation bar with logo, menu items, and mobile hamburger menu'"
+        "content": "Take a tour of the interface: Click on each panel to see what it contains"
       },
       {
         "type": "text",
-        "content": "The AI engine considers factors like responsiveness, accessibility, and modern design patterns when generating your components."
+        "content": "The interface adapts to your workflow - panels can be resized, moved, or hidden based on what you're working on. Everything is designed to keep your most-used tools within easy reach."
       }
     ],
     "exercises": [
@@ -91,9 +90,9 @@
         "id": "ex3",
         "step": 1,
         "type": "text",
-        "question": "Write a detailed description for a user profile card component that the AI could use to generate code.",
-        "expectedAnswer": "profile",
-        "hint": "Include details about what information should be displayed, styling preferences, and any interactive elements."
+        "question": "Which panel would you use to change the color of a button you've added to your page?",
+        "expectedAnswer": "properties",
+        "hint": "Think about where you would go to customize or modify the appearance of an element."
       }
     ],
     "estimatedTime": 10,
@@ -101,22 +100,22 @@
   },
   {
     "id": "4",
-    "title": "Responsive Design with Apper",
-    "description": "Learn how Apper automatically creates responsive layouts",
+    "title": "Using Apper's Design Tools",
+    "description": "Learn how to customize layouts, colors, and styling without design experience",
     "module": "Core Concepts",
     "order": 2,
     "content": [
       {
         "type": "text",
-        "content": "One of Apper's strengths is its ability to generate responsive designs automatically. When you describe a component, Apper considers various screen sizes and creates CSS that adapts accordingly."
+        "content": "One of Apper's greatest strengths is making professional design accessible to everyone. The visual design tools let you customize colors, fonts, layouts, and spacing with simple clicks and sliders. No design experience needed!"
       },
       {
-        "type": "code",
-        "content": "// Apper-generated responsive grid\n<div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\">\n  {items.map(item => (\n    <div key={item.id} className=\"bg-white p-6 rounded-lg shadow-md\">\n      <h3 className=\"text-lg font-semibold mb-2\">{item.title}</h3>\n      <p className=\"text-gray-600\">{item.description}</p>\n    </div>\n  ))}\n</div>"
+        "type": "interactive",
+        "content": "Customize a page: Change the background color and try different font combinations"
       },
       {
         "type": "text",
-        "content": "Notice how Apper uses Tailwind CSS classes to create a responsive grid that stacks on mobile, shows 2 columns on tablets, and 3 columns on desktop."
+        "content": "Notice how Apper automatically ensures your design choices work well together. It suggests complementary colors, readable font pairings, and maintains proper spacing for a professional look."
       }
     ],
     "exercises": [
@@ -124,9 +123,9 @@
         "id": "ex4",
         "step": 2,
         "type": "text",
-        "question": "What Tailwind CSS breakpoint prefixes does Apper commonly use for responsive design?",
-        "expectedAnswer": "md lg",
-        "hint": "Look at the grid example above - what prefixes are used before the column classes?"
+        "question": "How does Apper help ensure your design looks professional even if you're not a designer?",
+        "expectedAnswer": "suggestions automatic",
+        "hint": "Think about the helpful recommendations Apper provides when you make design choices."
       }
     ],
     "estimatedTime": 12,
@@ -134,33 +133,32 @@
   },
   {
     "id": "5",
-    "title": "State Management in Generated Components",
-    "description": "Explore how Apper handles React state and event handling",
+    "title": "Adding Interactive Features",
+    "description": "Discover how to make your application dynamic with forms, buttons, and user interactions",
     "module": "Advanced Features",
     "order": 1,
     "content": [
       {
         "type": "text",
-        "content": "Apper doesn't just generate static components - it understands when you need state management and automatically includes React hooks and event handlers."
+        "content": "Static pages are just the beginning. Apper lets you add interactive features like contact forms, user registration, shopping carts, and more. These features work automatically - no technical setup required."
       },
       {
-        "type": "code",
-        "content": "// Apper-generated form with state\nconst ContactForm = () => {\n  const [formData, setFormData] = useState({ name: '', email: '', message: '' })\n  const [loading, setLoading] = useState(false)\n\n  const handleSubmit = async (e) => {\n    e.preventDefault()\n    setLoading(true)\n    // Submit logic here\n    setLoading(false)\n  }\n\n  return (\n    <form onSubmit={handleSubmit} className=\"space-y-4\">\n      {/* Form fields */}\n    </form>\n  )\n}"
+        "type": "interactive",
+        "content": "Add a contact form to your page and see how Apper automatically handles form submissions"
       },
       {
         "type": "text",
-        "content": "Apper automatically includes proper form handling, loading states, and error handling based on your component description."
+        "content": "When users submit your forms, Apper can automatically send emails, save to databases, integrate with other services, or trigger custom actions. You just choose what you want to happen."
       }
     ],
     "exercises": [
       {
         "id": "ex5",
         "step": 1,
-        "type": "code",
-        "question": "Add error state handling to the form component above.",
-        "initialCode": "const [formData, setFormData] = useState({ name: '', email: '', message: '' })\nconst [loading, setLoading] = useState(false)\n// Add error state here",
-        "expectedAnswer": "error",
-        "hint": "You'll need to add a useState hook for error state, similar to the loading state."
+        "type": "text",
+        "question": "What happens when someone fills out a contact form you created in Apper?",
+        "expectedAnswer": "email notification",
+        "hint": "Think about how you would want to be notified when someone contacts you through your website."
       }
     ],
     "estimatedTime": 15,
@@ -168,22 +166,22 @@
   },
   {
     "id": "6",
-    "title": "Styling and Theming",
-    "description": "Learn how Apper applies consistent styling and themes",
+    "title": "Managing Content and Data",
+    "description": "Learn how to organize and update your application's content easily",
     "module": "Advanced Features",
     "order": 2,
     "content": [
       {
         "type": "text",
-        "content": "Apper uses modern CSS frameworks like Tailwind CSS to create beautiful, consistent designs. It automatically applies design systems and ensures your components follow best practices."
+        "content": "Apper makes content management simple. Whether you're updating text, adding images, or managing a product catalog, everything can be done through the friendly content editor. Changes appear instantly, and you can preview how they'll look to your users."
       },
       {
         "type": "interactive",
-        "content": "Customize the theme colors for this component using Apper's theme generator"
+        "content": "Update your homepage content and add some images from the media library"
       },
       {
         "type": "text",
-        "content": "Apper can generate components that match your brand colors, typography preferences, and design language automatically."
+        "content": "The content management system automatically optimizes images, maintains backups, and ensures everything loads quickly for your users. You focus on your content, Apper handles the technical details."
       }
     ],
     "exercises": [
@@ -191,9 +189,9 @@
         "id": "ex6",
         "step": 1,
         "type": "text",
-        "question": "Describe how you would ask Apper to create a component that matches a specific brand color scheme.",
-        "expectedAnswer": "brand colors",
-        "hint": "Think about including specific color values or design system references in your description."
+        "question": "What are the benefits of using Apper's built-in content management versus editing files manually?",
+        "expectedAnswer": "automatic optimization",
+        "hint": "Think about the technical tasks Apper handles automatically when you update content."
       }
     ],
     "estimatedTime": 8,
@@ -201,22 +199,22 @@
   },
   {
     "id": "7",
-    "title": "API Integration Patterns",
-    "description": "Discover how Apper generates components that work with APIs",
+    "title": "Collaborating with Your Team",
+    "description": "Discover how to work together on projects and manage permissions",
     "module": "Advanced Features",
     "order": 3,
     "content": [
       {
         "type": "text",
-        "content": "Apper understands common API patterns and can generate components that fetch data, handle loading states, and manage errors automatically."
+        "content": "Apper makes team collaboration seamless. You can invite team members, assign different permission levels, and work together in real-time. See changes as they happen and communicate directly within the platform."
       },
       {
-        "type": "code",
-        "content": "// Apper-generated API component\nconst UserList = () => {\n  const [users, setUsers] = useState([])\n  const [loading, setLoading] = useState(true)\n  const [error, setError] = useState(null)\n\n  useEffect(() => {\n    const fetchUsers = async () => {\n      try {\n        const response = await fetch('/api/users')\n        const data = await response.json()\n        setUsers(data)\n      } catch (err) {\n        setError(err.message)\n      } finally {\n        setLoading(false)\n      }\n    }\n    fetchUsers()\n  }, [])\n\n  if (loading) return <div>Loading...</div>\n  if (error) return <div>Error: {error}</div>\n\n  return (\n    <div className=\"grid gap-4\">\n      {users.map(user => (\n        <UserCard key={user.id} user={user} />\n      ))}\n    </div>\n  )\n}"
+        "type": "interactive",
+        "content": "Invite a team member and explore the collaboration features"
       },
       {
         "type": "text",
-        "content": "This component includes proper error handling, loading states, and follows React best practices for data fetching."
+        "content": "Team permissions ensure the right people have access to the right features. Designers can focus on visuals, content creators can update text, and administrators can manage settings - all without stepping on each other's toes."
       }
     ],
     "exercises": [
@@ -224,9 +222,9 @@
         "id": "ex7",
         "step": 2,
         "type": "text",
-        "question": "What are the three essential states that Apper includes in API-connected components?",
-        "expectedAnswer": "loading error data",
-        "hint": "Look at the useState hooks in the example - what three things does the component track?"
+        "question": "What are the main benefits of real-time collaboration in Apper?",
+        "expectedAnswer": "see changes communicate",
+        "hint": "Think about how working together in real-time improves team productivity and coordination."
       }
     ],
     "estimatedTime": 18,
@@ -234,22 +232,22 @@
   },
   {
     "id": "8",
-    "title": "Testing Generated Components",
-    "description": "Learn how to test and validate Apper-generated code",
+    "title": "Organizing Your Workspace",
+    "description": "Learn best practices for keeping your projects organized and efficient",
     "module": "Best Practices",
     "order": 1,
     "content": [
       {
         "type": "text",
-        "content": "Apper generates clean, testable code. Generated components follow React testing best practices and include proper props, state management, and accessibility features."
+        "content": "As your projects grow, staying organized becomes crucial. Apper provides tools to help you structure your work effectively: project folders, page organization, component libraries, and naming conventions that make sense."
       },
       {
-        "type": "code",
-        "content": "// Testing an Apper-generated component\nimport { render, screen, fireEvent } from '@testing-library/react'\nimport { CustomButton } from './CustomButton'\n\ntest('renders button with correct variant', () => {\n  render(<CustomButton variant=\"primary\">Click me</CustomButton>)\n  const button = screen.getByRole('button', { name: /click me/i })\n  expect(button).toHaveClass('bg-blue-600')\n})\n\ntest('calls onClick when clicked', () => {\n  const handleClick = jest.fn()\n  render(<CustomButton onClick={handleClick}>Click me</CustomButton>)\n  fireEvent.click(screen.getByRole('button'))\n  expect(handleClick).toHaveBeenCalledTimes(1)\n})"
+        "type": "interactive",
+        "content": "Organize your project by creating folders and grouping related pages together"
       },
       {
         "type": "text",
-        "content": "Apper-generated components are designed to be easily testable with standard React testing tools."
+        "content": "Good organization saves time and reduces confusion. When you can quickly find what you're looking for, you spend more time creating and less time searching."
       }
     ],
     "exercises": [
@@ -257,9 +255,9 @@
         "id": "ex8",
         "step": 1,
         "type": "text",
-        "question": "Why is it important to test Apper-generated components?",
-        "expectedAnswer": "validation reliability",
-        "hint": "Think about ensuring the generated code works as expected and meets your requirements."
+        "question": "Why is it important to organize your projects well from the beginning?",
+        "expectedAnswer": "saves time confusion",
+        "hint": "Think about what happens when projects grow larger and more complex over time."
       }
     ],
     "estimatedTime": 12,
@@ -267,33 +265,32 @@
   },
   {
     "id": "9",
-    "title": "Customizing Generated Code",
-    "description": "Learn how to modify and extend Apper's output",
+    "title": "Publishing and Sharing Your Work",
+    "description": "Learn how to make your application live and share it with the world",
     "module": "Best Practices",
     "order": 2,
     "content": [
       {
         "type": "text",
-        "content": "While Apper generates excellent starting code, you'll often want to customize and extend it. Apper's output is designed to be easily modifiable and follows standard React patterns."
+        "content": "Creating your application is just the beginning - Apper makes it easy to share your work with the world. Whether you want to publish to the web, share preview links with clients, or create mobile app versions, it's all built-in."
       },
       {
         "type": "interactive",
-        "content": "Modify this generated component to add additional functionality"
+        "content": "Generate a preview link for your project and see how easy sharing can be"
       },
       {
         "type": "text",
-        "content": "The key is understanding the generated code structure so you can confidently make changes and additions."
+        "content": "Publishing options include custom domains, built-in hosting, app store submission assistance, and analytics to track how your application performs. Apper handles the technical infrastructure so you can focus on your users."
       }
     ],
     "exercises": [
       {
         "id": "ex9",
         "step": 1,
-        "type": "code",
-        "question": "Add a disabled prop to the CustomButton component.",
-        "initialCode": "const CustomButton = ({ variant, children, onClick }) => {\n  return (\n    <button \n      className={`px-4 py-2 rounded-lg ${\n        variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'\n      }`}\n      onClick={onClick}\n    >\n      {children}\n    </button>\n  )\n}",
-        "expectedAnswer": "disabled",
-        "hint": "Add disabled to the props destructuring and use it in both the className and as a button attribute."
+        "type": "text",
+        "question": "What's the difference between a preview link and publishing your application?",
+        "expectedAnswer": "preview temporary testing",
+        "hint": "Think about when you'd want to show work-in-progress versus making something public and permanent."
       }
     ],
     "estimatedTime": 10,
@@ -301,22 +298,22 @@
   },
   {
     "id": "10",
-    "title": "Advanced Apper Techniques",
-    "description": "Master advanced Apper features and optimization strategies",
+    "title": "Advanced Tips and Productivity Hacks",
+    "description": "Master time-saving techniques and advanced features to work more efficiently",
     "module": "Best Practices",
     "order": 3,
     "content": [
       {
         "type": "text",
-        "content": "As you become more experienced with Apper, you can leverage advanced techniques to generate more sophisticated applications. This includes complex state management, performance optimization, and integration with modern development tools."
+        "content": "Once you're comfortable with the basics, these advanced techniques will supercharge your productivity. Learn keyboard shortcuts, template creation, bulk operations, and workflow automation that experienced users rely on."
       },
       {
-        "type": "code",
-        "content": "// Advanced Apper pattern: Context + Custom Hook\nconst ThemeContext = createContext()\n\nexport const useTheme = () => {\n  const context = useContext(ThemeContext)\n  if (!context) {\n    throw new Error('useTheme must be used within ThemeProvider')\n  }\n  return context\n}\n\nexport const ThemeProvider = ({ children }) => {\n  const [theme, setTheme] = useState('light')\n  \n  const toggleTheme = () => {\n    setTheme(prev => prev === 'light' ? 'dark' : 'light')\n  }\n\n  return (\n    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n      {children}\n    </ThemeContext.Provider>\n  )\n}"
+        "type": "interactive",
+        "content": "Try some keyboard shortcuts and explore the advanced features menu"
       },
       {
         "type": "text",
-        "content": "Apper can generate complex patterns like Context providers, custom hooks, and performance-optimized components when given detailed descriptions."
+        "content": "The most successful Apper users develop efficient workflows that let them iterate quickly and focus on creativity rather than repetitive tasks. These techniques will help you join their ranks."
       }
     ],
     "exercises": [
@@ -324,9 +321,9 @@
         "id": "ex10",
         "step": 2,
         "type": "text",
-        "question": "Describe a scenario where you would want Apper to generate a custom hook instead of a regular component.",
-        "expectedAnswer": "reusable logic",
-        "hint": "Think about when you need to share stateful logic between multiple components."
+        "question": "Name three ways you can save time when working on large projects in Apper.",
+        "expectedAnswer": "shortcuts templates automation",
+        "hint": "Think about features that help you avoid repeating the same actions over and over."
       }
     ],
     "estimatedTime": 20,

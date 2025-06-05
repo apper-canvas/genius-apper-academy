@@ -29,57 +29,63 @@
             "title": "Read and Learn",
             "description": "Each lesson has clear explanations and examples. Take your time to read through the content - there's no rush!"
           },
-          {
+{
             "step": 3,
             "title": "Practice with Exercises",
             "description": "Try the hands-on exercises to practice what you've learned. Don't worry if you make mistakes - that's how we learn!"
           },
           {
             "step": 4,
-            "title": "Track Your Progress",
-            "description": "Watch your progress bar fill up as you complete lessons. It feels great to see how much you've accomplished!"
+            "title": "Complete and Move On",
+            "description": "Once you finish an exercise, you can move to the next lesson or review what you've learned. Your progress is saved automatically!"
           }
         ]
       },
       {
-        "id": "features-explained",
-        "title": "Understanding Each Feature",
-        "content": "Let's explore what each part of Apper Academy does for you:",
+        "id": "core-features",
+        "title": "Core Features",
+        "content": "Discover the powerful features that make Apper perfect for anyone who wants to create professional applications.",
         "features": [
           {
-            "name": "Lessons",
-            "icon": "📚",
-            "description": "Lessons are like chapters in a book. Each one teaches you something new about creating apps. They include explanations, examples, and tips to help you understand.",
-            "howToUse": "Click on any lesson card to open it. Read through the content at your own pace. Use the navigation arrows to move between sections."
-          },
-          {
-            "name": "Exercises",
-            "icon": "💻",
-            "description": "Exercises are where you practice what you've learned. They're like puzzles that help you apply your knowledge in a fun way.",
-            "howToUse": "Follow the instructions in each exercise. Type your answer in the provided space. Don't worry about getting it perfect - you can try as many times as you want!"
-          },
-          {
-            "name": "Progress Tracking",
-            "icon": "📈",
-            "description": "Your progress tracker shows how much you've completed. It's like a report card that shows your learning journey.",
-            "howToUse": "Check your progress anytime on the dashboard. Green bars mean completed, yellow means in progress, and gray means not started yet."
-          },
-          {
-            "name": "Achievements",
-            "icon": "🏆",
-            "description": "Achievements are special rewards you earn for reaching milestones. They celebrate your hard work and motivate you to keep going!",
-            "howToUse": "Achievements unlock automatically when you hit certain goals. Check your achievement page to see what you've earned and what's coming next."
-          },
-          {
-            "name": "Code Playground",
-            "icon": "🎮",
-            "description": "The playground is where you can experiment and try things out safely. It's like a sandbox where you can build and test without breaking anything.",
-            "howToUse": "Use the playground to test ideas, practice coding, or just have fun experimenting with what you've learned."
-          }
-        ]
-      },
-      {
-        "id": "navigation-guide",
+            "icon": "🎨",
+          "name": "Visual Editor",
+          "description": "Create beautiful applications using our intuitive drag-and-drop interface. No design experience needed.",
+          "howToUse": "Simply drag components from the library onto your canvas, then customize them using the properties panel. Everything updates in real-time."
+        },
+        {
+          "icon": "📱",
+          "name": "Responsive Templates",
+          "description": "Start with professional templates that automatically adapt to all screen sizes and devices.",
+          "howToUse": "Choose a template that matches your vision, then customize colors, content, and layout. Your app will look great on phones, tablets, and computers."
+        },
+        {
+          "icon": "⚡",
+          "name": "Interactive Features",
+          "description": "Add forms, user accounts, payments, and other interactive elements without any technical setup.",
+          "howToUse": "Select the feature you want from the components panel and drop it onto your page. Apper automatically handles all the technical configuration."
+        },
+        {
+          "icon": "🚀",
+          "name": "Instant Publishing",
+          "description": "Publish your application to the web with one click. Custom domains and hosting included.",
+          "howToUse": "When you're ready to go live, click the publish button. Your app will be available on the internet immediately with professional hosting."
+        },
+        {
+          "icon": "👥",
+          "name": "Team Collaboration",
+          "description": "Work with your team in real-time. Share projects, assign roles, and see changes as they happen.",
+          "howToUse": "Invite team members via email and set their permission levels. Everyone can work together simultaneously without conflicts."
+},
+        {
+          "icon": "📊",
+          "name": "Analytics Dashboard",
+          "description": "Track your app's performance with detailed analytics and insights about user behavior and engagement.",
+          "howToUse": "Access the analytics dashboard from your project settings to view real-time data, user metrics, and performance insights."
+        }
+      ]
+    },
+    {
+      "id": "navigation-guide",
         "title": "Getting Around the App",
         "content": "Here's how to navigate through Apper Academy like a pro:",
         "navigationTips": [
