@@ -34,16 +34,16 @@ import { motion } from 'framer-motion';
                     </div>
                   )}
                   
-                  {/* Progress indicator */}
+{/* Progress indicator */}
                   <div className="flex items-center space-x-2">
                     <Text className="text-sm text-gray-500">
-                      {lesson.content ? `${progress.exercisesCompleted?.length || 0} of ${lesson.exercises?.length || 0}` : 'N/A'}
+                      {lesson.content ? `${progress?.exercisesCompleted?.length || 0} of ${lesson.exercises?.length || 0}` : 'N/A'}
                     </Text>
 <div className="w-20 h-2 bg-gray-200 rounded-full overflow-hidden">
                       <motion.div
                         className="h-full bg-primary"
                         initial={{ width: 0 }}
-                        animate={{ width: `${((progress.exercisesCompleted?.length || 0) / (lesson.exercises?.length || 1)) * 100}%` }}
+                        animate={{ width: `${((progress?.exercisesCompleted?.length || 0) / (lesson.exercises?.length || 1)) * 100}%` }}
                         transition={{ duration: 0.5 }}
                       />
                     </div>
